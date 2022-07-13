@@ -10,14 +10,6 @@ import SwiftUI
 struct TriviaView: View {
     @EnvironmentObject var triviaManager: TriviaManager
     
-//    var interstial = Interstitial()
-//    init() {
-//        interstial.LoadInterstitial()
-//        Task.init {
-//            await fetchTrivia()
-//        }
-//    }
-    
     var body: some View {
         if triviaManager.reachedEnd {
             VStack(spacing: 20) {
@@ -28,7 +20,6 @@ struct TriviaView: View {
                     .scaledToFit()
                     .frame(width: 300, height: 300)
                     
-                
                 Text("You answered \(triviaManager.score) out of \(triviaManager.length) correctly!")
                 
                 Text("Support the Developer who will gather the Infinity Stones and Snap you back!")
