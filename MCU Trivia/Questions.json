@@ -1,0 +1,555 @@
+[
+    {
+        "id": 1,
+        "question": "What was the first MCU movie released?",
+        "correctAnswer": "Iron-Man",
+        "incorrectAnswers": [
+            "The Incredible Hulk",
+            "Thor",
+            "Captain America - The First Avenger"
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Which Stone does Thanos collect first?",
+        "correctAnswer": "Power Stone",
+        "incorrectAnswers": [
+            "Time Stone",
+            "Space Stone",
+            "Mind Stone"
+        ]
+    },
+    {
+        "id": 3,
+        "question": "What year was Steve Rogers born?",
+        "correctAnswer": "1918",
+        "incorrectAnswers": [
+            "1970",
+            "1939",
+            "1914"
+        ]
+        
+    },
+    {
+        "id": 4,
+        "question": "How many possible outcomes did Dr. Strange see in Infinity War?",
+        "correctAnswer": "14,000,605",
+        "incorrectAnswers": [
+            "1",
+            "14,000,000",
+            "14,600,005"
+        ]
+    },
+    {
+        "id": 5,
+        "question": "How many times were the Infinity Stones used in Endgame?",
+        "correctAnswer": "3",
+        "incorrectAnswers": [
+            "1",
+            "2",
+            "4"
+        ]
+    },
+    {
+        "id": 6,
+        "question": "What is Tony Stark's fathers name?",
+        "correctAnswer": "Howard Stark",
+        "incorrectAnswers": [
+            "Norman Stark",
+            "Ned Stark",
+            "Rob Stark"
+        ]
+    },
+    {
+        "id": 7,
+        "question": "Which Stone does Thanos collect last?",
+        "correctAnswer": "Mind",
+        "incorrectAnswers": [
+            "Reality",
+            "Time",
+            "Soul"
+        ]
+    },
+    {
+        "id": 8,
+        "question": "What is Hawkeye's real name?",
+        "correctAnswer": "Clint Barton",
+        "incorrectAnswers": [
+            "Legolas",
+            "Robin Hood",
+            "Oliver Queen"
+        ]
+    },
+    {
+        "id": 9,
+        "question": "What is Thor's secret codename?",
+        "correctAnswer": "Pointbreak",
+        "incorrectAnswers": [
+            "Strongest Avenger",
+            "Odinson",
+            "Zeus"
+        ]
+    },
+    {
+        "id": 10,
+        "question": "Which movie did Nick Fury first appear in?",
+        "correctAnswer": "Iron-Man",
+        "incorrectAnswers": [
+            "Iron-Man 2",
+            "Captain America",
+            "Avengers: Endgame"
+        ]
+    },
+    {
+        "id": 11,
+        "question": "Who has the alter ego Rescue?",
+        "correctAnswer": "Pepper Potts",
+        "incorrectAnswers": [
+            "Happy Hogan",
+            "Spider-Man",
+            "Gamora"
+        ]
+    },
+    {
+        "id": 12,
+        "question": "What is the name of Tony Starks AI after Jarvis?",
+        "correctAnswer": "Friday",
+        "incorrectAnswers": [
+            "Wednesday",
+            "April",
+            "Morgan"
+        ]
+    },
+    {
+        "id": 13,
+        "question": "Who doesn't get blipped",
+        "correctAnswer": "Ant-Man",
+        "incorrectAnswers": [
+            "Spider-Man",
+            "Black Panther",
+            "Bucky"
+        ]
+    },
+    {
+        "id": 14,
+        "question": "Where is Thanos from?",
+        "correctAnswer": "Titan",
+        "incorrectAnswers": [
+            "Saturn",
+            "Uranas",
+            "Pluto"
+        ]
+    },
+    {
+        "id": 15,
+        "question": "Who's suit uses Pym Particles",
+        "correctAnswer": "Ant-Man",
+        "incorrectAnswers": [
+            "Black Panther",
+            "Iron-Man",
+            "Hulk"
+        ]
+    },
+    {
+        "id": 16,
+        "question": "Who adds the extra weapons to make War Machine?",
+        "correctAnswer": "Justin Hammer",
+        "incorrectAnswers": [
+            "Justin Beiber",
+            "Justin Timberlake",
+            "Justin Stark"
+        ]
+    },
+    {
+        "id": 17,
+        "question": "Who can't weild Mjolnir?",
+        "correctAnswer": "Loki",
+        "incorrectAnswers": [
+            "Jane Foster",
+            "Vision",
+            "Steve Rogers"
+        ]
+    },
+    {
+        "id": 18,
+        "question": "Which stone is also known as the Aether?",
+        "correctAnswer": "Reality Stone",
+        "incorrectAnswers": [
+            "Mind Stone",
+            "Power Stone",
+            "Soul Stone"
+        ]
+    },
+    {
+        "id": 19,
+        "question": "What game does Korg play in Avengers: Endgame?",
+        "correctAnswer": "Fortnite",
+        "incorrectAnswers": [
+            "Call of Duty",
+            "Rock, paper, Scissors",
+            "Snakes and ladders"
+        ]
+    },
+    {
+        "id": 20,
+        "question": "Other than Iron-Man 3, which other movie does the Mandarin star?",
+        "correctAnswer": "Shang Chi",
+        "incorrectAnswers": [
+            "Avengers: Age of Ultron",
+            "Iron-Man 2",
+            "Captain America: Civil War"
+        ]
+    },
+    {
+        "id": 21,
+        "question": "What is the Hulk's alter Ego",
+        "correctAnswer": "Bruce Banner",
+        "incorrectAnswers": [
+            "Bruce Wayne",
+            "Eric Banner",
+            "Bruce Banana"
+        ]
+    },
+    {
+        "id": 22,
+        "question": "What is Iron-Mans daughters name?",
+        "correctAnswer": "Morgan",
+        "incorrectAnswers": [
+            "Montanna",
+            "Salt",
+            "Crystal"
+        ]
+    },
+    {
+        "id": 23,
+        "question": "What Infinity Stone is used to create Vision?",
+        "correctAnswer": "Mind Stone",
+        "incorrectAnswers": [
+            "Power Stone",
+            "Reality Stone",
+            "Soul Stone"
+        ]
+    },
+    {
+        "id": 24,
+        "question": "What type of radiation created The Hulk?",
+        "correctAnswer": "Gamma",
+        "incorrectAnswers": [
+            "Nuclear",
+            "Neutron",
+            "Electromagnetic"
+        ]
+    },
+    {
+        "id": 25,
+        "question": "Which actress plays Gamora?",
+        "correctAnswer": "Zoe Saldana",
+        "incorrectAnswers": [
+            "Karen Gillan",
+            "Zendaya",
+            "Awkwafina"
+        ]
+    },
+    {
+        "id": 26,
+        "question": "Who is the voice actor for Groot?",
+        "correctAnswer": "Vin Diesel",
+        "incorrectAnswers": [
+            "Jason Statham",
+            "Bruce Willis",
+            "Samuel L Jackson"
+        ]
+    },
+    {
+        "id": 27,
+        "question": "Which Sipder-Man villian was did not appear in Spider-Man: No Way Home?",
+        "correctAnswer": "Venom",
+        "incorrectAnswers": [
+            "Sandman",
+            "Doc Ock",
+            "Green Goblin"
+        ]
+    },
+    {
+        "id": 28,
+        "question": "Which Fantastic 4 member has appeared in the MCU?",
+        "correctAnswer": "Mr Fantastic",
+        "incorrectAnswers": [
+            "The Invisible Woman",
+            "The Thing",
+            "The Human Torch"
+        ]
+    },
+    {
+        "id": 29,
+        "question": "Which movie does Stan Lee cameo as Hugh Hefner",
+        "correctAnswer": "Iron-Man",
+        "incorrectAnswers": [
+            "Iron-Man 2",
+            "Iron-Man 3",
+            "Avengers"
+        ]
+    },
+    {
+        "id": 30,
+        "question": "What is Black Panthers sisters name?",
+        "correctAnswer": "Shuri",
+        "incorrectAnswers": [
+            "Sharee",
+            "Sharon",
+            "Letitia"
+        ]
+    },
+    {
+        "id": 31,
+        "question": "Where does Thanos perform the first snap?",
+        "correctAnswer": "Wakanda",
+        "incorrectAnswers": [
+            "New York",
+            "Sydney",
+            "Titan"
+        ]
+    },
+    {
+        "id": 32,
+        "question": "Who does Clint Barton become after the Snap?",
+        "correctAnswer": "Ronin",
+        "incorrectAnswers": [
+            "Jeremy Renner",
+            "Conan",
+            "Rogue"
+        ]
+    },
+    {
+        "id": 33,
+        "question": "How many rings does Shang Chi inherit from his father?",
+        "correctAnswer": "10",
+        "incorrectAnswers": [
+            "2",
+            "5",
+            "132"
+        ]
+    },
+    {
+        "id": 34,
+        "question": "Which character isn't at Tony Stark's funeral?",
+        "correctAnswer": "Natasha Romanoff",
+        "incorrectAnswers": [
+            "Bruce Banner",
+            "Nick Fury",
+            "Carol Danvers"
+        ]
+    },
+    {
+        "id": 35,
+        "question": "What is the secret enemy organisation that infiltrates SHIELD?",
+        "correctAnswer": "Hydra",
+        "incorrectAnswers": [
+            "Gyardos",
+            "Sword",
+            "Arrow"
+        ]
+    },
+    {
+        "id": 36,
+        "question": "Who has died the most?",
+        "correctAnswer": "Dr Strange",
+        "incorrectAnswers": [
+            "Loki",
+            "Thanos",
+            "Captain America"
+        ]
+    },
+    {
+        "id": 37,
+        "question": "Who weilds the sword \"GODSLAYER\"",
+        "correctAnswer": "Gamora",
+        "incorrectAnswers": [
+            "Nebula",
+            "Mantis",
+            "Drax"
+        ]
+    },
+    {
+        "id": 38,
+        "question": "Which character uses Yaka arrows?",
+        "correctAnswer": "Yondu",
+        "incorrectAnswers": [
+            "Hawkeye",
+            "Iron-Man",
+            "Falcon"
+        ]
+    },
+    {
+        "id": 39,
+        "question": "Who was the MCU's first villian",
+        "correctAnswer": "Iron Monger",
+        "incorrectAnswers": [
+            "Kill Monger",
+            "Thanos",
+            "Red Skull"
+        ]
+    },
+    {
+        "id": 40,
+        "question": "What is the name of the fleet of Iron-Man soliders?",
+        "correctAnswer": "The Iron Legion",
+        "incorrectAnswers": [
+            "Ultron",
+            "Iron-Men",
+            "The Iron-Force"
+        ]
+    },
+    {
+        "id": 41,
+        "question": "What is Black Panther's suit made out of?",
+        "correctAnswer": "Vibranium",
+        "incorrectAnswers": [
+            "Adamantium",
+            "Titanium",
+            "Cotton"
+        ]
+    },
+    {
+        "id": 42,
+        "question": "What Army does Loki use to attack New York",
+        "correctAnswer": "The Chitauri",
+        "incorrectAnswers": [
+            "Asgard",
+            "Russian",
+            "Ice Giants"
+        ]
+    },
+    {
+        "id": 43,
+        "question": "Which Stone game Captain Marvel her powers",
+        "correctAnswer": "Space Stone",
+        "incorrectAnswers": [
+            "Mind Stone",
+            "Soul Stone",
+            "Reality Stone"
+        ]
+    },
+    {
+        "id": 44,
+        "question": "What does Carol Danvers think her name is when she loses her memory?",
+        "correctAnswer": "Vers",
+        "incorrectAnswers": [
+            "Dan",
+            "Karen",
+            "Rambeau"
+        ]
+    },
+    {
+        "id": 45,
+        "question": "Who does Black Panther hand the Infinity Gauntlet to in the Endgame battle?",
+        "correctAnswer": "Spider-Man",
+        "incorrectAnswers": [
+            "Captain Marvel",
+            "Iron-Man",
+            "Clint Barton"
+        ]
+    },
+    {
+        "id": 46,
+        "question": "Which movie does Agent Coulson not appear in?",
+        "correctAnswer": "Captain America",
+        "incorrectAnswers": [
+            "Iron-Man",
+            "Thor",
+            "The Avengers"
+        ]
+    },
+    {
+        "id": 47,
+        "question": "Which movie does Agent Maria Hill not appear in?",
+        "correctAnswer": "Captain America: Civil War",
+        "incorrectAnswers": [
+            "Avengers",
+            "Avengers: Age of Ultron",
+            "Avengers: Endgame"
+        ]
+    },
+    {
+        "id": 48,
+        "question": "Which tribe challenges T'challa for the throne?",
+        "correctAnswer": "The Jabari Tribe",
+        "incorrectAnswers": [
+            "The Mining Tribe",
+            "The Merchant Tribe",
+            "The Border Tribe"
+        ]
+    },
+    {
+        "id": 49,
+        "question": "Which Stone lies in the Eye of Agamotto",
+        "correctAnswer": "Time Stone",
+        "incorrectAnswers": [
+            "Mind Stone",
+            "Space Stone",
+            "Soul Stone"
+        ]
+    },
+    {
+        "id": 50,
+        "question": "Which of these Avengers meets Nick Fury first?",
+        "correctAnswer": "Carol Danvers",
+        "incorrectAnswers": [
+            "Steve Rogers",
+            "Tony Stark",
+            "Clint Barton"
+        ]
+    },
+    {
+        "id": 51,
+        "question": "Which Stone demands a sacrifice?",
+        "correctAnswer": "Soul Stone",
+        "incorrectAnswers": [
+            "Power Stone",
+            "Reality Stone",
+            "Mind Stone"
+        ]
+    },
+    {
+        "id": 52,
+        "question": "Which Stone is also known as the Tesseract?",
+        "correctAnswer": "Space Stone",
+        "incorrectAnswers": [
+            "Power Stone",
+            "Reality Stone",
+            "Mind Stone"
+        ]
+    },
+    {
+        "id": 53,
+        "question": "Who thinks they are invisible from moving slowly?",
+        "correctAnswer": "Drax",
+        "incorrectAnswers": [
+            "Groot",
+            "Thor",
+            "Loki"
+        ]
+    },
+    {
+        "id": 54,
+        "question": "Who plays the character Red Skull?",
+        "correctAnswer": "Hugo Weaving",
+        "incorrectAnswers": [
+            "Petter Cullen",
+            "Shia LaBeouf",
+            "Ian McKellen"
+        ]
+    },
+    {
+        "id": 55,
+        "question": "Who was the director of Iron-Man",
+        "correctAnswer": "Jon Favreau",
+        "incorrectAnswers": [
+            "Anthony Russo",
+            "Joe Russo",
+            "Taika Waititi"
+        ]
+    }
+]
+ 
+ 
