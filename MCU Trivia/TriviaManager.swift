@@ -47,9 +47,9 @@ class TriviaManager: ObservableObject {
                 self.score = 0
                 self.progress = 0.00
                 self.reachedEnd = false
-                self.incorrectAnswer = 0
+                self.incorrectAnswer = 0  // 6 for testing ---- 0 for release
                 
-                self.trivia = decodedData//.shuffled() ordered for testing
+                self.trivia = decodedData.shuffled() //ordered for testing
                 self.length = self.trivia.count
                 self.setQuestion()
             }
@@ -86,59 +86,56 @@ class TriviaManager: ObservableObject {
             incorrectAnswer += 1
             if incorrectAnswer == 7 {
                 reachedEnd = true
-                //self.interstial.showAd() /// Calls the ad, need to add this to button
-                
-                
+                self.interstial.showAd()
             }
         }
     }
 }
 
-import Foundation
-import GoogleMobileAds
-import UIKit
-
-let test = "ca-app-pub-3940256099942544/4411468910"
-let myAd = "ca-app-pub-4765977749695147/5929721516"
-    
-final class Interstitial: NSObject, GADFullScreenContentDelegate {
-    var interstitial:GADInterstitialAd?
-    
-    override init() {
-        super.init()
-        LoadInterstitial()
-    }
-    
-    func LoadInterstitial(){
-        self.interstitial = nil
-        let request = GADRequest()
-        GADInterstitialAd.load(withAdUnitID: "ca-app-pub-3940256099942544/4411468910", request: request) { interstialAd, error in  /// change test to myAd for release
-            if error == nil {
-                if let ad = interstialAd {
-                    // we do have ad
-                    self.interstitial = ad
-                    self.interstitial?.fullScreenContentDelegate = self
-                }
-            } else {
-                print("Error == \(error) and localized info == \(error?.localizedDescription)")
-            }
-        }
-    }
-    
-    func showAd(){
-        
-        if self.interstitial != nil {
-            guard let root = UIApplication.shared.windows.first?.rootViewController else {return}
-            self.interstitial?.present(fromRootViewController: root)
-        }
-    }
-    
-    func ad(_ ad: GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: Error) {
-        print("ad fail to present as full screen")
-    }
-    
-    func adDidDismissFullScreenContent(_ ad: GADFullScreenPresentingAd) {
-        LoadInterstitial()
-    }
-}
+//import Foundation
+//import GoogleMobileAds
+//import UIKit
+//
+//let test = "ca-app-pub-3940256099942544/4411468910"
+//let myAd = "ca-app-pub-4765977749695147/5929721516"
+//
+//final class Interstitial: NSObject, GADFullScreenContentDelegate {
+//    var interstitial:GADInterstitialAd?
+//    
+//    override init() {
+//        super.init()
+//        LoadInterstitial()
+//    }
+//    
+//    func LoadInterstitial(){
+//        self.interstitial = nil
+//        let request = GADRequest()
+//        GADInterstitialAd.load(withAdUnitID: "ca-app-pub-3940256099942544/4411468910", request: request) { interstialAd, error in  /// change test to myAd for release
+//            if error == nil {
+//                if let ad = interstialAd {
+//                    // we do have ad
+//                    self.interstitial = ad
+//                    self.interstitial?.fullScreenContentDelegate = self
+//                }
+//            } else {
+//                print("Error == \(error) and localized info == \(error?.localizedDescription)")
+//            }
+//        }
+//    }
+//    
+//    func showAd(){
+//        if self.interstitial != nil {
+//            guard let root = UIApplication.shared.windows.first?.rootViewController else {return}
+//            self.interstitial?.present(fromRootViewController: root)
+//        }
+//    }
+//    
+//    func ad(_ ad: GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: Error) {
+//        print("ad fail to present as full screen")
+//    }
+//    
+//    func adDidDismissFullScreenContent(_ ad: GADFullScreenPresentingAd) {
+//        LoadInterstitial()
+//    }
+//}
 

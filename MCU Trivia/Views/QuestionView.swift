@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct QuestionView: View {
-    
     @EnvironmentObject var triviaManager: TriviaManager
+    @State var timeRemaining = 20
+    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    @State private var progress = 0.0
     
     var body: some View {
         VStack {
@@ -17,6 +19,28 @@ struct QuestionView: View {
                 Text("MCU Trivia")
                     .ThanosTitle()
                 Text("Question number \(triviaManager.index + 1)") // for testing
+                
+                Text("\(timeRemaining)")
+                    .onReceive(timer) { _ in
+                        if timeRemaining == 0 {
+                            triviaManager.goToNextQuestion()
+                            timeRemaining = 20
+                        } else {
+                            timeRemaining -= 1
+                        }
+                    }
+                
+                ProgressView(value: progress, total: 20)
+                    .onReceive(timer) { _ in
+                        withAnimation() {
+                            if progress < 20 {
+                                progress += 1
+                            } else {
+                                progress = 0
+                            }
+                        }
+                    }
+                
                 
                 Image("glove\(triviaManager.incorrectAnswer)")
                     .resizable()

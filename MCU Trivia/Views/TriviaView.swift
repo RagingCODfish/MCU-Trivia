@@ -23,17 +23,20 @@ struct TriviaView: View {
                 Text("You answered \(triviaManager.score) out of \(triviaManager.length) correctly!")
                 
                 Text("Support the Developer who will gather the Infinity Stones and Snap you back!")
-                    
                     .ThanosTitle()
                 
                 Button {
                     Task.init {
-                        triviaManager.interstial.showAd()
                         await triviaManager.fetchTrivia()
-                        
                     }
                 } label: {
-                    PrimaryButton(text: "Watch an ad to play again!")
+                    PrimaryButton(text: "Play again!")
+                }
+                
+                NavigationLink {
+                    SubmitQuestionView()
+                } label: {
+                    PrimaryButton(text: "Submit a Question")
                 }
             }
             .foregroundColor(Color("AccentColor"))

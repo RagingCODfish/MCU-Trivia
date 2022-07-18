@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4457F3352884FFAF00520CA7 /* ProgressViewBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4457F3342884FFAF00520CA7 /* ProgressViewBar.swift */; };
 		4492D012287DBFE800FDD44B /* Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 4492D011287DBFE800FDD44B /* Questions.json */; };
 		4492D02F287EA1AA00FDD44B /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 4492D02E287EA1AA00FDD44B /* GoogleMobileAds */; };
 		4492D032287EB2FB00FDD44B /* GoogleAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4492D031287EB2FB00FDD44B /* GoogleAds.swift */; };
+		4492D034287EBB6B00FDD44B /* SubmitQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4492D033287EBB6B00FDD44B /* SubmitQuestionView.swift */; };
 		44B37E3E287DBE45003921FD /* MCU_TriviaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B37E3D287DBE45003921FD /* MCU_TriviaApp.swift */; };
 		44B37E42287DBE46003921FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B37E41287DBE46003921FD /* Assets.xcassets */; };
 		44B37E45287DBE46003921FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B37E44287DBE46003921FD /* Preview Assets.xcassets */; };
@@ -25,9 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4457F3342884FFAF00520CA7 /* ProgressViewBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewBar.swift; sourceTree = "<group>"; };
 		4492D011287DBFE800FDD44B /* Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Questions.json; sourceTree = "<group>"; };
 		4492D030287EA65600FDD44B /* MCU-Trivia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MCU-Trivia-Info.plist"; sourceTree = SOURCE_ROOT; };
 		4492D031287EB2FB00FDD44B /* GoogleAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAds.swift; sourceTree = "<group>"; };
+		4492D033287EBB6B00FDD44B /* SubmitQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitQuestionView.swift; sourceTree = "<group>"; };
 		44B37E3A287DBE45003921FD /* MCU Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MCU Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B37E3D287DBE45003921FD /* MCU_TriviaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCU_TriviaApp.swift; sourceTree = "<group>"; };
 		44B37E41287DBE46003921FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,12 +83,12 @@
 				44B37E4B287DBE81003921FD /* Extensions.swift */,
 				44B37E5E287DBEC3003921FD /* TriviaManager.swift */,
 				4492D011287DBFE800FDD44B /* Questions.json */,
+				4492D031287EB2FB00FDD44B /* GoogleAds.swift */,
 				44B37E4D287DBEA4003921FD /* Views */,
 				44B37E54287DBEB3003921FD /* Components */,
 				44B37E59287DBEBA003921FD /* Models */,
 				44B37E41287DBE46003921FD /* Assets.xcassets */,
 				44B37E43287DBE46003921FD /* Preview Content */,
-				4492D031287EB2FB00FDD44B /* GoogleAds.swift */,
 			);
 			path = "MCU Trivia";
 			sourceTree = "<group>";
@@ -103,6 +107,7 @@
 				44B37E4E287DBEA4003921FD /* QuestionView.swift */,
 				44B37E4F287DBEA4003921FD /* TriviaView.swift */,
 				44B37E50287DBEA4003921FD /* ContentView.swift */,
+				4492D033287EBB6B00FDD44B /* SubmitQuestionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 			children = (
 				44B37E55287DBEB3003921FD /* PrimaryButton.swift */,
 				44B37E56287DBEB3003921FD /* AnswerRow.swift */,
+				4457F3342884FFAF00520CA7 /* ProgressViewBar.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -205,6 +211,7 @@
 				4492D032287EB2FB00FDD44B /* GoogleAds.swift in Sources */,
 				44B37E51287DBEA4003921FD /* QuestionView.swift in Sources */,
 				44B37E5C287DBEBA003921FD /* Trivia.swift in Sources */,
+				4457F3352884FFAF00520CA7 /* ProgressViewBar.swift in Sources */,
 				44B37E58287DBEB3003921FD /* AnswerRow.swift in Sources */,
 				44B37E5F287DBEC3003921FD /* TriviaManager.swift in Sources */,
 				44B37E53287DBEA4003921FD /* ContentView.swift in Sources */,
@@ -212,6 +219,7 @@
 				44B37E57287DBEB3003921FD /* PrimaryButton.swift in Sources */,
 				44B37E5D287DBEBA003921FD /* Answer.swift in Sources */,
 				44B37E52287DBEA4003921FD /* TriviaView.swift in Sources */,
+				4492D034287EBB6B00FDD44B /* SubmitQuestionView.swift in Sources */,
 				44B37E3E287DBE45003921FD /* MCU_TriviaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
