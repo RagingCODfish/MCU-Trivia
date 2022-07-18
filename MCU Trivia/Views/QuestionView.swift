@@ -9,7 +9,7 @@ import SwiftUI
 
 struct QuestionView: View {
     @EnvironmentObject var triviaManager: TriviaManager
-    @State var timeRemaining = 200
+    @State var timeRemaining = 20
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     @State private var progress = 0.0
     
