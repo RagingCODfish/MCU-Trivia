@@ -20,7 +20,14 @@ class TriviaManager: ObservableObject {
     @Published private(set) var answerChoices: [Answer] = []
     @Published private(set) var progress: CGFloat = 0.00
     @Published private(set) var score = 0
-    @Published private(set) var incorrectAnswer = 0
+    @Published var incorrectAnswer = 0
+    @Published var points = 0
+    @Published var multiplier = 0
+    @AppStorage("highscore") var highscore: Int = 0
+    
+    @Published var timeRemaining = 50
+    let timer = Timer.publish(every: 0.4, on: .main, in: .common).autoconnect() /// 0.4 makes the questions go for 20 seconds
+    
     var interstial = Interstitial()
     init() {
         interstial.LoadInterstitial()
@@ -35,7 +42,6 @@ class TriviaManager: ObservableObject {
         let urlRequest = URLRequest(url: url)
         do {
             let (data, response) = try await URLSession.shared.data(for: urlRequest)
-            //print("response", response, "data", String(decoding: data, as: UTF8.self))
             guard (response as? HTTPURLResponse)?.statusCode == 200 else { fatalError("Error while fetching data") }
             
             let decoder = JSONDecoder()
@@ -48,10 +54,10 @@ class TriviaManager: ObservableObject {
                 self.progress = 0.00
                 self.reachedEnd = false
                 self.incorrectAnswer = 0  // 6 for testing ---- 0 for release
-                
                 self.trivia = decodedData.shuffled() //ordered for testing
                 self.length = self.trivia.count
                 self.setQuestion()
+                
             }
         } catch {
             print("Error fetching trivia \(error)")
@@ -59,17 +65,22 @@ class TriviaManager: ObservableObject {
     }
     
     func goToNextQuestion() {
+        if incorrectAnswer == 7 {
+            reachedEnd = true
+            gameOver()
+        }
+        
         if index + 1 < length {
             index += 1
             setQuestion()
         } else {
             reachedEnd = true
+            gameOver()
         }
     }
     
     func setQuestion() {
         answerSelected = false
-        progress = CGFloat((Double(index) + 1) / Double(length) * 350)
         
         if index < length {
             let currentTriviaQuestion = trivia[index]
@@ -82,60 +93,37 @@ class TriviaManager: ObservableObject {
         answerSelected = true
         if answer.isCorrect {
             score += 1
+            multiplier += 1
+            points += timeRemaining * multiplier
         } else {
             incorrectAnswer += 1
+            points -= 10
+            multiplier = 0
             if incorrectAnswer == 7 {
                 reachedEnd = true
+                updateHighScore()
                 self.interstial.showAd()
             }
         }
     }
+    
+    func updateHighScore() {
+        if points > highscore {
+            highscore = points
+            UserDefaults.standard.set(highscore, forKey: "highscore")
+        }
+    }
+    
+    func decreaseTimer() {
+        timeRemaining -= 1 // stops the clock for testing
+    }
+    
+    func resetTimer() {
+        timeRemaining = 50
+    }
+    
+    func gameOver() {
+        updateHighScore()
+        self.interstial.showAd()
+    }
 }
-
-//import Foundation
-//import GoogleMobileAds
-//import UIKit
-//
-//let test = "ca-app-pub-3940256099942544/4411468910"
-//let myAd = "ca-app-pub-4765977749695147/5929721516"
-//
-//final class Interstitial: NSObject, GADFullScreenContentDelegate {
-//    var interstitial:GADInterstitialAd?
-//    
-//    override init() {
-//        super.init()
-//        LoadInterstitial()
-//    }
-//    
-//    func LoadInterstitial(){
-//        self.interstitial = nil
-//        let request = GADRequest()
-//        GADInterstitialAd.load(withAdUnitID: "ca-app-pub-3940256099942544/4411468910", request: request) { interstialAd, error in  /// change test to myAd for release
-//            if error == nil {
-//                if let ad = interstialAd {
-//                    // we do have ad
-//                    self.interstitial = ad
-//                    self.interstitial?.fullScreenContentDelegate = self
-//                }
-//            } else {
-//                print("Error == \(error) and localized info == \(error?.localizedDescription)")
-//            }
-//        }
-//    }
-//    
-//    func showAd(){
-//        if self.interstitial != nil {
-//            guard let root = UIApplication.shared.windows.first?.rootViewController else {return}
-//            self.interstitial?.present(fromRootViewController: root)
-//        }
-//    }
-//    
-//    func ad(_ ad: GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: Error) {
-//        print("ad fail to present as full screen")
-//    }
-//    
-//    func adDidDismissFullScreenContent(_ ad: GADFullScreenPresentingAd) {
-//        LoadInterstitial()
-//    }
-//}
-

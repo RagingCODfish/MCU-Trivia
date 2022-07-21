@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4457F3352884FFAF00520CA7 /* ProgressViewBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4457F3342884FFAF00520CA7 /* ProgressViewBar.swift */; };
+		4457F33728866EDA00520CA7 /* HowToPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4457F33628866ED900520CA7 /* HowToPlayView.swift */; };
 		4492D012287DBFE800FDD44B /* Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 4492D011287DBFE800FDD44B /* Questions.json */; };
 		4492D02F287EA1AA00FDD44B /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 4492D02E287EA1AA00FDD44B /* GoogleMobileAds */; };
 		4492D032287EB2FB00FDD44B /* GoogleAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4492D031287EB2FB00FDD44B /* GoogleAds.swift */; };
@@ -27,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4457F3342884FFAF00520CA7 /* ProgressViewBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewBar.swift; sourceTree = "<group>"; };
+		4457F33628866ED900520CA7 /* HowToPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayView.swift; sourceTree = "<group>"; };
 		4492D011287DBFE800FDD44B /* Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Questions.json; sourceTree = "<group>"; };
 		4492D030287EA65600FDD44B /* MCU-Trivia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MCU-Trivia-Info.plist"; sourceTree = SOURCE_ROOT; };
 		4492D031287EB2FB00FDD44B /* GoogleAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAds.swift; sourceTree = "<group>"; };
@@ -80,14 +80,12 @@
 			children = (
 				4492D030287EA65600FDD44B /* MCU-Trivia-Info.plist */,
 				44B37E3D287DBE45003921FD /* MCU_TriviaApp.swift */,
-				44B37E4B287DBE81003921FD /* Extensions.swift */,
-				44B37E5E287DBEC3003921FD /* TriviaManager.swift */,
-				4492D011287DBFE800FDD44B /* Questions.json */,
-				4492D031287EB2FB00FDD44B /* GoogleAds.swift */,
 				44B37E4D287DBEA4003921FD /* Views */,
 				44B37E54287DBEB3003921FD /* Components */,
 				44B37E59287DBEBA003921FD /* Models */,
 				44B37E41287DBE46003921FD /* Assets.xcassets */,
+				4492D031287EB2FB00FDD44B /* GoogleAds.swift */,
+				4492D011287DBFE800FDD44B /* Questions.json */,
 				44B37E43287DBE46003921FD /* Preview Content */,
 			);
 			path = "MCU Trivia";
@@ -107,6 +105,7 @@
 				44B37E4E287DBEA4003921FD /* QuestionView.swift */,
 				44B37E4F287DBEA4003921FD /* TriviaView.swift */,
 				44B37E50287DBEA4003921FD /* ContentView.swift */,
+				4457F33628866ED900520CA7 /* HowToPlayView.swift */,
 				4492D033287EBB6B00FDD44B /* SubmitQuestionView.swift */,
 			);
 			path = Views;
@@ -117,7 +116,7 @@
 			children = (
 				44B37E55287DBEB3003921FD /* PrimaryButton.swift */,
 				44B37E56287DBEB3003921FD /* AnswerRow.swift */,
-				4457F3342884FFAF00520CA7 /* ProgressViewBar.swift */,
+				44B37E4B287DBE81003921FD /* Extensions.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -125,6 +124,7 @@
 		44B37E59287DBEBA003921FD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				44B37E5E287DBEC3003921FD /* TriviaManager.swift */,
 				44B37E5A287DBEBA003921FD /* Trivia.swift */,
 				44B37E5B287DBEBA003921FD /* Answer.swift */,
 			);
@@ -211,7 +211,6 @@
 				4492D032287EB2FB00FDD44B /* GoogleAds.swift in Sources */,
 				44B37E51287DBEA4003921FD /* QuestionView.swift in Sources */,
 				44B37E5C287DBEBA003921FD /* Trivia.swift in Sources */,
-				4457F3352884FFAF00520CA7 /* ProgressViewBar.swift in Sources */,
 				44B37E58287DBEB3003921FD /* AnswerRow.swift in Sources */,
 				44B37E5F287DBEC3003921FD /* TriviaManager.swift in Sources */,
 				44B37E53287DBEA4003921FD /* ContentView.swift in Sources */,
@@ -220,6 +219,7 @@
 				44B37E5D287DBEBA003921FD /* Answer.swift in Sources */,
 				44B37E52287DBEA4003921FD /* TriviaView.swift in Sources */,
 				4492D034287EBB6B00FDD44B /* SubmitQuestionView.swift in Sources */,
+				4457F33728866EDA00520CA7 /* HowToPlayView.swift in Sources */,
 				44B37E3E287DBE45003921FD /* MCU_TriviaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +358,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -368,7 +369,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -389,6 +390,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -399,7 +401,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

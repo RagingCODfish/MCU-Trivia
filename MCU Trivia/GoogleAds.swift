@@ -11,15 +11,15 @@ import UIKit
 
 let test = "ca-app-pub-3940256099942544/4411468910"
 let myAd = "ca-app-pub-4765977749695147/5929721516"
-    
+
 final class Interstitial: NSObject, GADFullScreenContentDelegate {
     var interstitial:GADInterstitialAd?
-    
+
     override init() {
         super.init()
         LoadInterstitial()
     }
-    
+
     func LoadInterstitial(){
         self.interstitial = nil
         let request = GADRequest()
@@ -35,20 +35,20 @@ final class Interstitial: NSObject, GADFullScreenContentDelegate {
             }
         }
     }
-    
+
     func showAd(){
-        
+
         if self.interstitial != nil {
             guard let root = UIApplication.shared.windows.first?.rootViewController else {return}
             self.interstitial?.present(fromRootViewController: root)
         }
     }
-    
-    
+
+
     func ad(_ ad: GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: Error) {
         print("ad fail to present as full screen")
     }
-    
+
     func adDidDismissFullScreenContent(_ ad: GADFullScreenPresentingAd) {
         LoadInterstitial()
     }

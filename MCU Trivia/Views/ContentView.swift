@@ -16,31 +16,42 @@ struct ContentView: View {
     }
     
     var body: some View {
-        NavigationView {
-            VStack(spacing: 40) {
-                VStack(spacing: 20) {
-                    Text("MCU Trivia")
-                        .ThanosTitle()
+        VStack {
+            NavigationView {
+                VStack(spacing: 40) {
+                    VStack(spacing: 20) {
+                        Text("MCU Trivia")
+                            .ThanosTitle()                        
+                        
+                        Image("glove6")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 300, height: 300)
+                        
+                        Text("Can you survive the Inevitable?")
+                            .foregroundColor(Color("AccentColor"))
+                            
+                        Text("Your current High Score is \(triviaManager.highscore)")
+                            .foregroundColor(Color("AccentColor"))
+                    }
                     
-                    Image("glove6")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 300, height: 300)
+                    NavigationLink {
+                        TriviaView()
+                            .environmentObject(triviaManager)
+                    } label: {
+                        PrimaryButton(text: "Assemble")
+                    }
                     
-                    Text("Can you survive the Inevitable?")
-                        .foregroundColor(Color("AccentColor"))
+                    NavigationLink {
+                        HowToPlayView()
+                    } label: {
+                        PrimaryButton(text: "How to play")
+                    }
                 }
-                
-                NavigationLink {
-                    TriviaView()
-                        .environmentObject(triviaManager)
-                } label: {
-                    PrimaryButton(text: "Assemble")
-                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .edgesIgnoringSafeArea(.all)
+                .background(Color("Thanos"))
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .edgesIgnoringSafeArea(.all)
-            .background(Color("Thanos"))
         }
     }
 }

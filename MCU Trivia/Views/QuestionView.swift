@@ -9,69 +9,74 @@ import SwiftUI
 
 struct QuestionView: View {
     @EnvironmentObject var triviaManager: TriviaManager
-    @State var timeRemaining = 20
-    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
-    @State private var progress = 0.0
     
     var body: some View {
         VStack {
-            VStack {
-                Text("MCU Trivia")
-                    .ThanosTitle()
-                Text("Question number \(triviaManager.index + 1)") // for testing
-                
-                Text("\(timeRemaining)")
-                    .onReceive(timer) { _ in
-                        if timeRemaining == 0 {
-                            triviaManager.goToNextQuestion()
-                            timeRemaining = 20
-                        } else {
-                            timeRemaining -= 1
-                        }
-                    }
-                
-                ProgressView(value: progress, total: 20)
-                    .onReceive(timer) { _ in
-                        withAnimation() {
-                            if progress < 20 {
-                                progress += 1
-                            } else {
-                                progress = 0
-                            }
-                        }
-                    }
-                
-                
+            VStack(alignment: .leading) {
                 Image("glove\(triviaManager.incorrectAnswer)")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 250, height: 250)
+                    .frame(height: 350)
             }
+            
+            // for testing
+//            Text("\(triviaManager.incorrectAnswer)")
+//            Text("\(triviaManager.points)")
+//            Text("\(triviaManager.multiplier)")
             
             VStack {
                 Text(triviaManager.question)
                     .bold()
                     .font(.system(size: 20))
                     .multilineTextAlignment(.center)
-                    .frame(width: 300, height: 150)
+                    .frame(width: 350, height: 100)
+                    .frame(maxWidth: .infinity)
+                    .padding()
                     .foregroundColor(Color("AccentColor"))
-                
-                
                 
                 ForEach(triviaManager.answerChoices, id: \.id) { answer in
                     AnswerRow(answer: answer)
                         .environmentObject(triviaManager)
                 }
+                .padding(.horizontal)
             }
             
-            Button {
-                triviaManager.goToNextQuestion()
-            } label: {
-                PrimaryButton(text: "Next", background: triviaManager.answerSelected ? Color("AccentColor") : Color(hue: 1.0, saturation: 0.0, brightness: 0.564, opacity: 0.327))
+            VStack {
+                if triviaManager.answerSelected == true {
+                    Button {
+                        withAnimation(){
+                            triviaManager.goToNextQuestion()
+                            triviaManager.resetTimer()
+                        }
+                    } label: {
+                        PrimaryButton(text: "Next", background: Color("AccentColor"))
+                    }
+                } else {
+                    Image(systemName: "\(triviaManager.timeRemaining).circle")
+                        .font(.largeTitle)
+                        .foregroundColor(.yellow)
+                        .onReceive(triviaManager.timer) { _ in
+                            if triviaManager.timeRemaining == 0 {
+                                withAnimation(){
+                                    triviaManager.incorrectAnswer += 1
+                                    triviaManager.goToNextQuestion()
+                                    triviaManager.resetTimer()
+                                    triviaManager.multiplier = 0
+                                    
+                                }
+                            } else {
+                                withAnimation() {
+                                    triviaManager.decreaseTimer()
+                                    
+                                }
+                            }
+                        }
+                }
             }
-            .disabled(!triviaManager.answerSelected)
+            .frame(height: 30)
+            .padding()
         }
-        .padding()
+        
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color("Thanos"))
         .navigationBarHidden(true)

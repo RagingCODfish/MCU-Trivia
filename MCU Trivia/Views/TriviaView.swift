@@ -13,14 +13,23 @@ struct TriviaView: View {
     var body: some View {
         if triviaManager.reachedEnd {
             VStack(spacing: 20) {
-                Text("You Turned To Dust!")
-                    .ThanosTitle()
-                Image("glove6")
+                if triviaManager.incorrectAnswer < 6 {
+                    Text("You saved the Universe")
+                    
+                } else {
+                    Text("You Turned To Dust!")
+                    
+                }
+                
+                Image("glove7")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 300, height: 300)
-                    
-                Text("You answered \(triviaManager.score) out of \(triviaManager.length) correctly!")
+                
+                Text("You answered \(triviaManager.score) out of \(triviaManager.index + 1)")
+                
+                Text("You scored: \(triviaManager.points)")
+                Text("Your Highest Score is \(triviaManager.highscore)")
                 
                 Text("Support the Developer who will gather the Infinity Stones and Snap you back!")
                     .ThanosTitle()
@@ -32,6 +41,7 @@ struct TriviaView: View {
                 } label: {
                     PrimaryButton(text: "Play again!")
                 }
+                .navigationBarHidden(true)
                 
                 NavigationLink {
                     SubmitQuestionView()
@@ -44,10 +54,12 @@ struct TriviaView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color("Thanos"))
         } else {
-            QuestionView()
-                .environmentObject(triviaManager)
+            withAnimation(){
+                QuestionView()
+                    .environmentObject(triviaManager)
+            }
         }
-            
+        
     }
 }
 

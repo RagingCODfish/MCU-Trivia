@@ -16,7 +16,9 @@
         "incorrectAnswers": [
             "Time Stone",
             "Space Stone",
-            "Mind Stone"
+            "Mind Stone",
+            "Reality Stone",
+            "Soul Stone"
         ]
     },
     {
@@ -63,16 +65,18 @@
     {
         "id": 7,
         "question": "Which Stone does Thanos collect last?",
-        "correctAnswer": "Mind",
+        "correctAnswer": "Mind Stone",
         "incorrectAnswers": [
-            "Reality",
-            "Time",
-            "Soul"
+            "Time Stone",
+            "Space Stone",
+            "Reality Stone",
+            "Soul Stone",
+            "Power Stone"
         ]
     },
     {
         "id": 8,
-        "question": "What is Hawkeye's real name?",
+        "question": "What is Hawkeye's alt ego?",
         "correctAnswer": "Clint Barton",
         "incorrectAnswers": [
             "Legolas",
@@ -82,7 +86,7 @@
     },
     {
         "id": 9,
-        "question": "What is Thor's secret codename?",
+        "question": "What nickname does Tony give Thor?",
         "correctAnswer": "Pointbreak",
         "incorrectAnswers": [
             "Strongest Avenger",
@@ -127,7 +131,9 @@
         "incorrectAnswers": [
             "Spider-Man",
             "Black Panther",
-            "Bucky"
+            "Bucky",
+            "Dr. Strange",
+            "Drax"
         ]
     },
     {
@@ -157,7 +163,9 @@
         "incorrectAnswers": [
             "Justin Beiber",
             "Justin Timberlake",
-            "Justin Stark"
+            "Justin Stark",
+            "Justin Hartley",
+            "Justin Long"
         ]
     },
     {
@@ -167,7 +175,8 @@
         "incorrectAnswers": [
             "Jane Foster",
             "Vision",
-            "Steve Rogers"
+            "Steve Rogers",
+            "Odin"
         ]
     },
     {
@@ -175,9 +184,11 @@
         "question": "Which stone is also known as the Aether?",
         "correctAnswer": "Reality Stone",
         "incorrectAnswers": [
+            "Time Stone",
+            "Space Stone",
             "Mind Stone",
-            "Power Stone",
-            "Soul Stone"
+            "Soul Stone",
+            "Power Stone"
         ]
     },
     {
@@ -225,9 +236,11 @@
         "question": "What Infinity Stone is used to create Vision?",
         "correctAnswer": "Mind Stone",
         "incorrectAnswers": [
-            "Power Stone",
+            "Time Stone",
+            "Space Stone",
             "Reality Stone",
-            "Soul Stone"
+            "Soul Stone",
+            "Power Stone"
         ]
     },
     {
@@ -262,8 +275,8 @@
     },
     {
         "id": 27,
-        "question": "Which Sipder-Man villian was did not appear in Spider-Man: No Way Home?",
-        "correctAnswer": "Venom",
+        "question": "Which Spider-Man villian was did not appear in Spider-Man: No Way Home?",
+        "correctAnswer": "New-Goblin",
         "incorrectAnswers": [
             "Sandman",
             "Doc Ock",
@@ -387,7 +400,8 @@
         "incorrectAnswers": [
             "Kill Monger",
             "Thanos",
-            "Red Skull"
+            "Red Skull",
+            "Whip Lash"
         ]
     },
     {
@@ -416,7 +430,7 @@
         "correctAnswer": "The Chitauri",
         "incorrectAnswers": [
             "Asgard",
-            "Russian",
+            "Martian",
             "Ice Giants"
         ]
     },
@@ -549,7 +563,482 @@
             "Joe Russo",
             "Taika Waititi"
         ]
+    },
+    {
+        "id": 56,
+        "question": "Who's suit has an \"Insta-Kill\" mode?",
+        "correctAnswer": "Spider-Man",
+        "incorrectAnswers": [
+            "Iron-Man",
+            "Black Panther",
+            "War Machine"
+        ]
+    },
+    {
+        "id": 57,
+        "question": "Which stone is given to the Collector to safe gaurd?",
+        "correctAnswer": "Reality Stone",
+        "incorrectAnswers": [
+            "Space Stone",
+            "Time Stone",
+            "Soul Stone",
+            "Space Stone",
+            "Mind Stone"
+        ]
+    },
+    {
+        "id": 58,
+        "question": "Where is Storm-Breaker forged?",
+        "correctAnswer": "Nidavellir",
+        "incorrectAnswers": [
+            "Knowhere",
+            "Xander",
+            "Vormir"
+        ]
+    },
+    {
+        "id": 59,
+        "question": "What year did the Avengers time travel to New York in Avengers: Endgame?",
+        "correctAnswer": "2012",
+        "incorrectAnswers": [
+            "2016",
+            "2008",
+            "2020"
+        ]
+    },
+    {
+        "id": 60,
+        "question": "What is Bruce Banner's secret to dealing with the Hulk in The Avengers?",
+        "correctAnswer": "He's always Angry",
+        "incorrectAnswers": [
+            "He's always Hungry",
+            "He's always Hangry",
+            "Secret Potion"
+        ]
+    },
+    {
+        "id": 61,
+        "question": "What powers the first Iron-Man suit?",
+        "correctAnswer": "Miniaturized Arc Reactor",
+        "incorrectAnswers": [
+            "Solar Panels",
+            "Tesla Batteries",
+            "Portable Power Bank"
+        ]
+    },
+    {
+        "id": 62,
+        "question": "What type of core is poisoning Tony in Iron-Man 2",
+        "correctAnswer": "Palladium",
+        "incorrectAnswers": [
+            "Vibranium",
+            "Badassium",
+            "Helium"
+        ]
+    },
+    {
+        "id": 63,
+        "question": "Which suit is Tony working on at the start of Iron-Man 3",
+        "correctAnswer": "MK 42",
+        "incorrectAnswers": [
+            "MK 4",
+            "MK 23",
+            "MK 50"
+        ]
+    },
+    {
+        "id": 64,
+        "question": "What was War Machine rebranded to in Iron-Man 3",
+        "correctAnswer": "Iron Patriot",
+        "incorrectAnswers": [
+            "America Man",
+            "American Iron-Man",
+            "War Patriot"
+        ]
+    },
+    {
+        "id": 65,
+        "question": "Who take over Stark Indutries from Tony?",
+        "correctAnswer": "Pepper Potts",
+        "incorrectAnswers": [
+            "Happy Hogan",
+            "Aldrich Killian",
+            "James Rhodes"
+        ]
+    },
+    {
+        "id": 65,
+        "question": "What is Tony STark's home address?",
+        "correctAnswer": "10880 Malibu Point, 90265",
+        "incorrectAnswers": [
+            "42 Wallaby Way, Sydney",
+            "1600 Pennsylvania Avenue, Washington, D.C.",
+            "742 Evergreen Terrace, Springfield"
+        ]
+    },
+    {
+        "id": 66,
+        "question": "Which Las Vages Casino was the awards cermony held at in Iron-Man?",
+        "correctAnswer": "Caesers Palace",
+        "incorrectAnswers": [
+            "Bellagio Hotel & Casino",
+            "MGM Grand",
+            "The Venetian Las Vegas"
+        ]
+    },
+    {
+        "id": 67,
+        "question": "Which award was Tony Stark being award in Iron-Man",
+        "correctAnswer": "Apogee Award",
+        "incorrectAnswers": [
+            "Golden Globe",
+            "Nobel Peace Prize",
+            "Pulitzer Prize"
+        ]
+    },
+    {
+        "id": 68,
+        "question": "WHat is the name of the Missile Tony is tasked to build for Raza?",
+        "correctAnswer": "Jericho",
+        "incorrectAnswers": [
+            "Warhog",
+            "Sarmat",
+            "Tomahawk",
+            "Trident",
+            "Agni",
+            "DeepStrike",
+            "Hellfire",
+            "Satan",
+            "Brahmos"
+        ]
+    },
+    {
+        "id": 69,
+        "question": "What did Yinsen plug into the electro magnet to keep Tony Stark alive?",
+        "correctAnswer": "A Car Battery",
+        "incorrectAnswers": [
+            "An Arc Reactor",
+            "A Generator",
+            "Solar Panels"
+        ]
+    },
+    {
+        "id": 70,
+        "question": "What was the main weapon on the first Iron-Man suit?",
+        "correctAnswer": "Flame Thrower",
+        "incorrectAnswers": [
+            "Arc Blaters",
+            "Ion Blaster",
+            "Lightsaber"
+        ]
+    },
+    {
+        "id": 71,
+        "question": "Why couldn't Iron-Monger fly as high as Iron-Man?",
+        "correctAnswer": "Suit froze up",
+        "incorrectAnswers": [
+            "Too heavy",
+            "Not enough power",
+            "Not enough fuel"
+        ]
+    },
+    {
+        "id": 72,
+        "question": "What does the \"S\" stand for in S.H.I.E.L.D?",
+        "correctAnswer": "Strategic",
+        "incorrectAnswers": [
+            "Super",
+            "Successful",
+            "Supportive",
+            "Star",
+            "Sincere",
+            "Sensuous",
+            "Stupendous",
+            "Support",
+            "Sacred",
+            "Synergy",
+            "Soaring",
+            "Saintly"
+        ]
+    },
+    {
+        "id": 73,
+        "question": "What does the \"H\" stand for in S.H.I.E.L.D?",
+        "correctAnswer": "Homeland",
+        "incorrectAnswers": [
+            "Head",
+            "Hammer",
+            "Hood",
+            "Hive",
+            "Hand",
+            "Heart",
+            "Hook",
+            "Hologram",
+            "Humdinger",
+            "Hydrophobic",
+            "Halcyon",
+            "Hypothermia"
+            
+        ]
+    },
+    {
+        "id": 74,
+        "question": "What does the \"I\" stand for in S.H.I.E.L.D?",
+        "correctAnswer": "Intervention",
+        "incorrectAnswers": [
+            "Inspiring",
+            "Immediately",
+            "Imagination",
+            "Inventive",
+            "Illegal",
+            "Impactful",
+            "Iron",
+            "Imitate",
+            "Institution",
+            "Inclusive",
+            "Innovative",
+            "Invincible"
+            
+        ]
+    },
+    {
+        "id": 75,
+        "question": "What does the \"E\" stand for in S.H.I.E.L.D?",
+        "correctAnswer": "Enforcement",
+        "incorrectAnswers": [
+            "Empowering",
+            "Enhancer",
+            "Economical",
+            "Electrifying",
+            "Easygoing",
+            "Enlightening",
+            "Enriching",
+            "Endorsing",
+            "Enthusiastic",
+            "Enchanting",
+            "Euphoric",
+            "Experienced"
+            
+        ]
+    },
+    {
+        "id": 76,
+        "question": "What does the \"L\" stand for in S.H.I.E.L.D?",
+        "correctAnswer": "Logistics",
+        "incorrectAnswers": [
+            "Loving",
+            "Lifesaver",
+            "Leader",
+            "Luminous",
+            "Lasting",
+            "Legendary",
+            "Lucrative",
+            "Luxurious",
+            "Loyal",
+            "Lucky",
+            "Lucid",
+            "Logical"
+            
+        ]
+    },
+    {
+        "id": 77,
+        "question": "What does the \"D\" stand for in S.H.I.E.L.D?",
+        "correctAnswer": "Division",
+        "incorrectAnswers": [
+            "Dynamic",
+            "Dutiful",
+            "Devoted",
+            "Dedicated",
+            "Distinguished",
+            "Desirable",
+            "Dignified",
+            "Decisive",
+            "Delicious",
+            "Determined",
+            "Disciplined"
+            
+        ]
     }
+    ,{
+        "id": 78,
+        "question": "What is Odin's fathers name?",
+        "correctAnswer": "Bor",
+        "incorrectAnswers": [
+            "Gorr",
+            "Mor",
+            "Worr",
+            "Lor"
+        ]
+    }
+    ,{
+        "id": 79,
+        "question": "What make is the car Iron-Monger throws at Iron-Man?",
+        "correctAnswer": "Audi",
+        "incorrectAnswers": [
+            "BMW",
+            "Tesla",
+            "Ferari"
+        ]
+    }
+    ,{
+        "id": 80,
+        "question": "What is the MK 3 Iron-Man suit made of?",
+        "correctAnswer": "Titanium",
+        "incorrectAnswers": [
+            "Vibranium",
+            "Iron",
+            "Adamantium"
+        ]
+    }
+    ,{
+        "id": 81,
+        "question": "How many days without incedents has Bruce had at the start of The Incredible Hulk",
+        "correctAnswer": "158",
+        "incorrectAnswers": [
+            "1",
+            "100",
+            "150"
+        ]
+    },
+    {
+        "id": 82,
+        "question": "What drink factory does Bruce Banner work at?",
+        "correctAnswer": "Pingo Doce",
+        "incorrectAnswers": [
+            "Coca Cola",
+            "Fanta",
+            "Mountain Dew"
+        ]
+    }
+    ,{
+        "id": 83,
+        "question": "What is Bruce's username while talking with the secret scientist?",
+        "correctAnswer": "Mr Green",
+        "incorrectAnswers": [
+            "Big Green",
+            "Green Boy",
+            "Greeny"
+        ]
+    }
+    ,{
+        "id": 84,
+        "question": "Who does Emil Blonksy become?",
+        "correctAnswer": "Abomination",
+        "incorrectAnswers": [
+            "Whip Lash",
+            "Iron Monger",
+            "Kill monger",
+            "Mandarin",
+            "Yellow Jacket"
+        ]
+    }
+    ,{
+        "id": 85,
+        "question": "What heart rate triggers Bruce to turn into the Hulk",
+        "correctAnswer": "200",
+        "incorrectAnswers": [
+            "250",
+            "60",
+            "100"
+        ]
+    }
+    ,{
+        "id": 86,
+        "question": "Who does the Hulk throw a forklift at?",
+        "correctAnswer": "Emil Blonksy",
+        "incorrectAnswers": [
+            "Thor",
+            "Thanos",
+            "Thunderbolt Ross"
+        ]
+    }
+    ,{
+        "id": 87,
+        "question": "What Colour is the Power Stone?",
+        "correctAnswer": "Purple",
+        "incorrectAnswers": [
+            "Red",
+            "Yellow",
+            "Orange",
+            "Green",
+            "Blue"
+        ]
+    }
+    ,{
+        "id": 88,
+        "question": "What Colour is the Reality Stone?",
+        "correctAnswer": "Red",
+        "incorrectAnswers": [
+            "Yellow",
+            "Orange",
+            "Green",
+            "Blue",
+            "Purple"
+        ]
+    }
+    ,{
+        "id": 89,
+        "question": "What Colour is the Mind Stone?",
+        "correctAnswer": "Yellow",
+        "incorrectAnswers": [
+            "Red",
+            "Orange",
+            "Green",
+            "Blue",
+            "Purple"
+        ]
+    }
+    ,{
+        "id": 90,
+        "question": "What Colour is the Soul Stone?",
+        "correctAnswer": "Orange",
+        "incorrectAnswers": [
+            "Red",
+            "Yellow",
+            "Green",
+            "Blue",
+            "Purple"
+        ]
+    }
+    ,{
+        "id": 91,
+        "question": "What Colour is the Time Stone?",
+        "correctAnswer": "Green",
+        "incorrectAnswers": [
+            "Red",
+            "Yellow",
+            "Orange",
+            "Blue",
+            "Purple"
+        ]
+    }
+    ,{
+        "id": 92,
+        "question": "What Colour is the Space Stone?",
+        "correctAnswer": "Blue",
+        "incorrectAnswers": [
+            "Red",
+            "Yellow",
+            "Orange",
+            "Green",
+            "Purple"
+        ]
+    }
+
 ]
+ 
+ 
+    ,{
+        "id": ,
+        "question": "",
+        "correctAnswer": "",
+        "incorrectAnswers": [
+            "",
+            "",
+            ""
+        ]
+    }
+
  
  

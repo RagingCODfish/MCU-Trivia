@@ -25,13 +25,17 @@ struct Trivia: Decodable {
     var answers: [Answer] {
         do {
             let correct = [Answer(text: try AttributedString(markdown: correctAnswer), isCorrect: true)]
-            let incorrects = try incorrectAnswers.map { answer in
+            var incorrects = try incorrectAnswers.map { answer in
                 Answer(text: try AttributedString(markdown: answer), isCorrect: false)
-                
-                
+            }
+
+            // Removes any extra possible incorrect answers
+            while incorrects.count > 3 {
+                incorrects.shuffle()
+                incorrects.removeLast()
             }
             
-            let allAnswers = correct + incorrects
+            let allAnswers = incorrects + correct
             
             return allAnswers.shuffled()
             
