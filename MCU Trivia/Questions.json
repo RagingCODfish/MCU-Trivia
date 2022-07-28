@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "question": "What was the first MCU movie released?",
+        "question": "What was the first MCU movie released",
         "correctAnswer": "Iron-Man",
         "incorrectAnswers": [
             "The Incredible Hulk",
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "question": "Which Stone does Thanos collect first?",
+        "question": "Which Stone does Thanos collect first",
         "correctAnswer": "Power Stone",
         "incorrectAnswers": [
             "Time Stone",
@@ -23,7 +23,7 @@
     },
     {
         "id": 3,
-        "question": "What year was Steve Rogers born?",
+        "question": "What year was Steve Rogers born",
         "correctAnswer": "1918",
         "incorrectAnswers": [
             "1970",
@@ -34,7 +34,7 @@
     },
     {
         "id": 4,
-        "question": "How many possible outcomes did Dr. Strange see in Infinity War?",
+        "question": "How many possible outcomes did Dr. Strange see in Infinity War",
         "correctAnswer": "14,000,605",
         "incorrectAnswers": [
             "1",
@@ -44,7 +44,7 @@
     },
     {
         "id": 5,
-        "question": "How many times were the Infinity Stones used in Endgame?",
+        "question": "How many times were the Infinity Stones used in Endgame",
         "correctAnswer": "3",
         "incorrectAnswers": [
             "1",
@@ -54,7 +54,7 @@
     },
     {
         "id": 6,
-        "question": "What is Tony Stark's fathers name?",
+        "question": "What is Tony Stark's fathers name",
         "correctAnswer": "Howard Stark",
         "incorrectAnswers": [
             "Norman Stark",
@@ -64,7 +64,7 @@
     },
     {
         "id": 7,
-        "question": "Which Stone does Thanos collect last?",
+        "question": "Which Stone does Thanos collect last",
         "correctAnswer": "Mind Stone",
         "incorrectAnswers": [
             "Time Stone",
@@ -76,7 +76,7 @@
     },
     {
         "id": 8,
-        "question": "What is Hawkeye's alt ego?",
+        "question": "What is Hawkeye's alter ego",
         "correctAnswer": "Clint Barton",
         "incorrectAnswers": [
             "Legolas",
@@ -86,7 +86,7 @@
     },
     {
         "id": 9,
-        "question": "What nickname does Tony give Thor?",
+        "question": "What nickname does Tony give Thor",
         "correctAnswer": "Pointbreak",
         "incorrectAnswers": [
             "Strongest Avenger",
@@ -96,7 +96,7 @@
     },
     {
         "id": 10,
-        "question": "Which movie did Nick Fury first appear in?",
+        "question": "Which movie did Nick Fury first appear in",
         "correctAnswer": "Iron-Man",
         "incorrectAnswers": [
             "Iron-Man 2",
@@ -106,7 +106,7 @@
     },
     {
         "id": 11,
-        "question": "Who has the alter ego Rescue?",
+        "question": "Who has the alter ego Rescue",
         "correctAnswer": "Pepper Potts",
         "incorrectAnswers": [
             "Happy Hogan",
@@ -116,7 +116,7 @@
     },
     {
         "id": 12,
-        "question": "What is the name of Tony Starks AI after Jarvis?",
+        "question": "What is the name of Tony Starks AI after Jarvis",
         "correctAnswer": "Friday",
         "incorrectAnswers": [
             "Wednesday",
@@ -138,7 +138,7 @@
     },
     {
         "id": 14,
-        "question": "Where is Thanos from?",
+        "question": "Where is Thanos from",
         "correctAnswer": "Titan",
         "incorrectAnswers": [
             "Saturn",
@@ -158,7 +158,7 @@
     },
     {
         "id": 16,
-        "question": "Who adds the extra weapons to make War Machine?",
+        "question": "Who adds the extra weapons to make War Machine",
         "correctAnswer": "Justin Hammer",
         "incorrectAnswers": [
             "Justin Beiber",
@@ -170,7 +170,7 @@
     },
     {
         "id": 17,
-        "question": "Who can't weild Mjolnir?",
+        "question": "Who can't weild Mjolnir",
         "correctAnswer": "Loki",
         "incorrectAnswers": [
             "Jane Foster",
@@ -181,7 +181,7 @@
     },
     {
         "id": 18,
-        "question": "Which stone is also known as the Aether?",
+        "question": "Which stone is also known as the Aether",
         "correctAnswer": "Reality Stone",
         "incorrectAnswers": [
             "Time Stone",
@@ -193,7 +193,7 @@
     },
     {
         "id": 19,
-        "question": "What game does Korg play in Avengers: Endgame?",
+        "question": "What game does Korg play in Avengers: Endgame",
         "correctAnswer": "Fortnite",
         "incorrectAnswers": [
             "Call of Duty",
@@ -203,7 +203,7 @@
     },
     {
         "id": 20,
-        "question": "Other than Iron-Man 3, which other movie does the Mandarin star?",
+        "question": "Other than Iron-Man 3, which other movie does the Mandarin appear in",
         "correctAnswer": "Shang Chi",
         "incorrectAnswers": [
             "Avengers: Age of Ultron",
@@ -223,7 +223,7 @@
     },
     {
         "id": 22,
-        "question": "What is Iron-Mans daughters name?",
+        "question": "What is Tony Stark's daughters name",
         "correctAnswer": "Morgan",
         "incorrectAnswers": [
             "Montanna",
@@ -233,7 +233,7 @@
     },
     {
         "id": 23,
-        "question": "What Infinity Stone is used to create Vision?",
+        "question": "Which Infinity Stone is used to create Vision",
         "correctAnswer": "Mind Stone",
         "incorrectAnswers": [
             "Time Stone",
@@ -245,7 +245,7 @@
     },
     {
         "id": 24,
-        "question": "What type of radiation created The Hulk?",
+        "question": "What type of radiation created The Hulk",
         "correctAnswer": "Gamma",
         "incorrectAnswers": [
             "Nuclear",
@@ -255,7 +255,7 @@
     },
     {
         "id": 25,
-        "question": "Which actress plays Gamora?",
+        "question": "Which actress plays Gamora",
         "correctAnswer": "Zoe Saldana",
         "incorrectAnswers": [
             "Karen Gillan",
@@ -265,7 +265,7 @@
     },
     {
         "id": 26,
-        "question": "Who is the voice actor for Groot?",
+        "question": "Who is the voice actor for Groot",
         "correctAnswer": "Vin Diesel",
         "incorrectAnswers": [
             "Jason Statham",
@@ -275,7 +275,7 @@
     },
     {
         "id": 27,
-        "question": "Which Spider-Man villian was did not appear in Spider-Man: No Way Home?",
+        "question": "Which Spider-Man villian did not appear in Spider-Man: No Way Home",
         "correctAnswer": "New-Goblin",
         "incorrectAnswers": [
             "Sandman",
@@ -285,7 +285,7 @@
     },
     {
         "id": 28,
-        "question": "Which Fantastic 4 member has appeared in the MCU?",
+        "question": "Which Fantastic 4 member has appeared in the MCU",
         "correctAnswer": "Mr Fantastic",
         "incorrectAnswers": [
             "The Invisible Woman",
@@ -305,7 +305,7 @@
     },
     {
         "id": 30,
-        "question": "What is Black Panthers sisters name?",
+        "question": "What is Black Panthers sisters name",
         "correctAnswer": "Shuri",
         "incorrectAnswers": [
             "Sharee",
@@ -315,7 +315,7 @@
     },
     {
         "id": 31,
-        "question": "Where does Thanos perform the first snap?",
+        "question": "Where does Thanos perform the first snap",
         "correctAnswer": "Wakanda",
         "incorrectAnswers": [
             "New York",
@@ -325,7 +325,7 @@
     },
     {
         "id": 32,
-        "question": "Who does Clint Barton become after the Snap?",
+        "question": "Who does Clint Barton become after the Snap",
         "correctAnswer": "Ronin",
         "incorrectAnswers": [
             "Jeremy Renner",
@@ -335,7 +335,7 @@
     },
     {
         "id": 33,
-        "question": "How many rings does Shang Chi inherit from his father?",
+        "question": "How many rings does Shang Chi inherit from his father",
         "correctAnswer": "10",
         "incorrectAnswers": [
             "2",
@@ -345,7 +345,7 @@
     },
     {
         "id": 34,
-        "question": "Which character isn't at Tony Stark's funeral?",
+        "question": "Which character isn't at Tony Stark's funeral",
         "correctAnswer": "Natasha Romanoff",
         "incorrectAnswers": [
             "Bruce Banner",
@@ -355,7 +355,7 @@
     },
     {
         "id": 35,
-        "question": "What is the secret enemy organisation that infiltrates SHIELD?",
+        "question": "What is the secret enemy organisation that infiltrates S.H.I.E.L.D",
         "correctAnswer": "Hydra",
         "incorrectAnswers": [
             "Gyardos",
@@ -365,7 +365,7 @@
     },
     {
         "id": 36,
-        "question": "Who has died the most?",
+        "question": "Who has died the most",
         "correctAnswer": "Dr Strange",
         "incorrectAnswers": [
             "Loki",
@@ -375,7 +375,7 @@
     },
     {
         "id": 37,
-        "question": "Who weilds the sword \"GODSLAYER\"",
+        "question": "Who wields the sword \"GODSLAYER\"",
         "correctAnswer": "Gamora",
         "incorrectAnswers": [
             "Nebula",
@@ -385,7 +385,7 @@
     },
     {
         "id": 38,
-        "question": "Which character uses Yaka arrows?",
+        "question": "Which character uses Yaka arrows",
         "correctAnswer": "Yondu",
         "incorrectAnswers": [
             "Hawkeye",
@@ -406,7 +406,7 @@
     },
     {
         "id": 40,
-        "question": "What is the name of the fleet of Iron-Man soliders?",
+        "question": "What is the name of the fleet of Iron-Man soliders",
         "correctAnswer": "The Iron Legion",
         "incorrectAnswers": [
             "Ultron",
@@ -416,12 +416,15 @@
     },
     {
         "id": 41,
-        "question": "What is Black Panther's suit made out of?",
+        "question": "What is Black Panther's suit made out of",
         "correctAnswer": "Vibranium",
         "incorrectAnswers": [
             "Adamantium",
             "Titanium",
-            "Cotton"
+            "Cotton",
+            "Latex",
+            "Spandex",
+            "Lycra"
         ]
     },
     {
@@ -436,17 +439,19 @@
     },
     {
         "id": 43,
-        "question": "Which Stone game Captain Marvel her powers",
+        "question": "Which Stone gave Captain Marvel her powers",
         "correctAnswer": "Space Stone",
         "incorrectAnswers": [
+            "Power Stone",
+            "Reality Stone",
             "Mind Stone",
-            "Soul Stone",
-            "Reality Stone"
+            "Time Stone",
+            "Soul Stone"
         ]
     },
     {
         "id": 44,
-        "question": "What does Carol Danvers think her name is when she loses her memory?",
+        "question": "What does Carol Danvers think her name is when she loses her memory",
         "correctAnswer": "Vers",
         "incorrectAnswers": [
             "Dan",
@@ -456,7 +461,7 @@
     },
     {
         "id": 45,
-        "question": "Who does Black Panther hand the Infinity Gauntlet to in the Endgame battle?",
+        "question": "Who does Black Panther hand the Infinity Gauntlet to in the Endgame battle",
         "correctAnswer": "Spider-Man",
         "incorrectAnswers": [
             "Captain Marvel",
@@ -466,7 +471,7 @@
     },
     {
         "id": 46,
-        "question": "Which movie does Agent Coulson not appear in?",
+        "question": "Which movie does Agent Coulson not appear in",
         "correctAnswer": "Captain America",
         "incorrectAnswers": [
             "Iron-Man",
@@ -476,7 +481,7 @@
     },
     {
         "id": 47,
-        "question": "Which movie does Agent Maria Hill not appear in?",
+        "question": "Which movie does Agent Maria Hill not appear in",
         "correctAnswer": "Captain America: Civil War",
         "incorrectAnswers": [
             "Avengers",
@@ -486,7 +491,7 @@
     },
     {
         "id": 48,
-        "question": "Which tribe challenges T'challa for the throne?",
+        "question": "Which tribe challenges T'challa for the throne",
         "correctAnswer": "The Jabari Tribe",
         "incorrectAnswers": [
             "The Mining Tribe",
@@ -499,6 +504,8 @@
         "question": "Which Stone lies in the Eye of Agamotto",
         "correctAnswer": "Time Stone",
         "incorrectAnswers": [
+            "Power Stone",
+            "Reality Stone",
             "Mind Stone",
             "Space Stone",
             "Soul Stone"
@@ -506,7 +513,7 @@
     },
     {
         "id": 50,
-        "question": "Which of these Avengers meets Nick Fury first?",
+        "question": "Which of these Avengers meets Nick Fury first",
         "correctAnswer": "Carol Danvers",
         "incorrectAnswers": [
             "Steve Rogers",
@@ -516,27 +523,31 @@
     },
     {
         "id": 51,
-        "question": "Which Stone demands a sacrifice?",
+        "question": "Which Stone demands a sacrifice",
         "correctAnswer": "Soul Stone",
         "incorrectAnswers": [
             "Power Stone",
             "Reality Stone",
-            "Mind Stone"
+            "Mind Stone",
+            "Time Stone",
+            "Space Stone"
         ]
     },
     {
         "id": 52,
-        "question": "Which Stone is also known as the Tesseract?",
+        "question": "Which Stone is also known as the Tesseract",
         "correctAnswer": "Space Stone",
         "incorrectAnswers": [
             "Power Stone",
             "Reality Stone",
-            "Mind Stone"
+            "Mind Stone",
+            "Time Stone",
+            "Soul Stone"
         ]
     },
     {
         "id": 53,
-        "question": "Who thinks they are invisible from moving slowly?",
+        "question": "Who thinks they are invisible from moving slowly",
         "correctAnswer": "Drax",
         "incorrectAnswers": [
             "Groot",
@@ -546,7 +557,7 @@
     },
     {
         "id": 54,
-        "question": "Who plays the character Red Skull?",
+        "question": "Who plays the character Red Skull",
         "correctAnswer": "Hugo Weaving",
         "incorrectAnswers": [
             "Petter Cullen",
@@ -566,7 +577,7 @@
     },
     {
         "id": 56,
-        "question": "Who's suit has an \"Insta-Kill\" mode?",
+        "question": "Who's suit has an \"Insta-Kill\" mode",
         "correctAnswer": "Spider-Man",
         "incorrectAnswers": [
             "Iron-Man",
@@ -576,7 +587,7 @@
     },
     {
         "id": 57,
-        "question": "Which stone is given to the Collector to safe gaurd?",
+        "question": "Which stone is given to the Collector to safe gaurd",
         "correctAnswer": "Reality Stone",
         "incorrectAnswers": [
             "Space Stone",
@@ -588,17 +599,17 @@
     },
     {
         "id": 58,
-        "question": "Where is Storm-Breaker forged?",
+        "question": "Where is Stormbreaker forged",
         "correctAnswer": "Nidavellir",
         "incorrectAnswers": [
             "Knowhere",
-            "Xander",
+            "Xandar",
             "Vormir"
         ]
     },
     {
         "id": 59,
-        "question": "What year did the Avengers time travel to New York in Avengers: Endgame?",
+        "question": "What year did the Avengers time travel to New York in Avengers: Endgame",
         "correctAnswer": "2012",
         "incorrectAnswers": [
             "2016",
@@ -608,7 +619,7 @@
     },
     {
         "id": 60,
-        "question": "What is Bruce Banner's secret to dealing with the Hulk in The Avengers?",
+        "question": "What is Bruce Banner's secret to dealing with the Hulk in The Avengers",
         "correctAnswer": "He's always Angry",
         "incorrectAnswers": [
             "He's always Hungry",
@@ -618,7 +629,7 @@
     },
     {
         "id": 61,
-        "question": "What powers the first Iron-Man suit?",
+        "question": "What powers the first Iron-Man suit",
         "correctAnswer": "Miniaturized Arc Reactor",
         "incorrectAnswers": [
             "Solar Panels",
@@ -658,7 +669,7 @@
     },
     {
         "id": 65,
-        "question": "Who take over Stark Indutries from Tony?",
+        "question": "Who takes over Stark Industries from Tony",
         "correctAnswer": "Pepper Potts",
         "incorrectAnswers": [
             "Happy Hogan",
@@ -668,7 +679,7 @@
     },
     {
         "id": 65,
-        "question": "What is Tony STark's home address?",
+        "question": "What is Tony Stark's home address",
         "correctAnswer": "10880 Malibu Point, 90265",
         "incorrectAnswers": [
             "42 Wallaby Way, Sydney",
@@ -678,7 +689,7 @@
     },
     {
         "id": 66,
-        "question": "Which Las Vages Casino was the awards cermony held at in Iron-Man?",
+        "question": "Which Las Vages Casino was the awards cermony held at in Iron-Man",
         "correctAnswer": "Caesers Palace",
         "incorrectAnswers": [
             "Bellagio Hotel & Casino",
@@ -688,7 +699,7 @@
     },
     {
         "id": 67,
-        "question": "Which award was Tony Stark being award in Iron-Man",
+        "question": "Which award was Tony Stark being awarded in Iron-Man",
         "correctAnswer": "Apogee Award",
         "incorrectAnswers": [
             "Golden Globe",
@@ -698,7 +709,7 @@
     },
     {
         "id": 68,
-        "question": "WHat is the name of the Missile Tony is tasked to build for Raza?",
+        "question": "What is the name of the Missile Tony is tasked to build for Raza",
         "correctAnswer": "Jericho",
         "incorrectAnswers": [
             "Warhog",
@@ -714,7 +725,7 @@
     },
     {
         "id": 69,
-        "question": "What did Yinsen plug into the electro magnet to keep Tony Stark alive?",
+        "question": "What did Yinsen plug into the electro magnet to keep Tony Stark alive",
         "correctAnswer": "A Car Battery",
         "incorrectAnswers": [
             "An Arc Reactor",
@@ -724,7 +735,7 @@
     },
     {
         "id": 70,
-        "question": "What was the main weapon on the first Iron-Man suit?",
+        "question": "What was the main weapon on the first Iron-Man suit",
         "correctAnswer": "Flame Thrower",
         "incorrectAnswers": [
             "Arc Blaters",
@@ -734,7 +745,7 @@
     },
     {
         "id": 71,
-        "question": "Why couldn't Iron-Monger fly as high as Iron-Man?",
+        "question": "Why couldn't Iron-Monger fly as high as Iron-Man",
         "correctAnswer": "Suit froze up",
         "incorrectAnswers": [
             "Too heavy",
@@ -744,7 +755,7 @@
     },
     {
         "id": 72,
-        "question": "What does the \"S\" stand for in S.H.I.E.L.D?",
+        "question": "What does the \"S\" stand for in S.H.I.E.L.D",
         "correctAnswer": "Strategic",
         "incorrectAnswers": [
             "Super",
@@ -763,7 +774,7 @@
     },
     {
         "id": 73,
-        "question": "What does the \"H\" stand for in S.H.I.E.L.D?",
+        "question": "What does the \"H\" stand for in S.H.I.E.L.D",
         "correctAnswer": "Homeland",
         "incorrectAnswers": [
             "Head",
@@ -783,7 +794,7 @@
     },
     {
         "id": 74,
-        "question": "What does the \"I\" stand for in S.H.I.E.L.D?",
+        "question": "What does the \"I\" stand for in S.H.I.E.L.D",
         "correctAnswer": "Intervention",
         "incorrectAnswers": [
             "Inspiring",
@@ -803,7 +814,7 @@
     },
     {
         "id": 75,
-        "question": "What does the \"E\" stand for in S.H.I.E.L.D?",
+        "question": "What does the \"E\" stand for in S.H.I.E.L.D",
         "correctAnswer": "Enforcement",
         "incorrectAnswers": [
             "Empowering",
@@ -823,7 +834,7 @@
     },
     {
         "id": 76,
-        "question": "What does the \"L\" stand for in S.H.I.E.L.D?",
+        "question": "What does the \"L\" stand for in S.H.I.E.L.D",
         "correctAnswer": "Logistics",
         "incorrectAnswers": [
             "Loving",
@@ -843,7 +854,7 @@
     },
     {
         "id": 77,
-        "question": "What does the \"D\" stand for in S.H.I.E.L.D?",
+        "question": "What does the \"D\" stand for in S.H.I.E.L.D",
         "correctAnswer": "Division",
         "incorrectAnswers": [
             "Dynamic",
@@ -862,7 +873,7 @@
     }
     ,{
         "id": 78,
-        "question": "What is Odin's fathers name?",
+        "question": "What is Odin's fathers name",
         "correctAnswer": "Bor",
         "incorrectAnswers": [
             "Gorr",
@@ -873,17 +884,17 @@
     }
     ,{
         "id": 79,
-        "question": "What make is the car Iron-Monger throws at Iron-Man?",
+        "question": "What make is the car Iron-Monger throws at Iron-Man",
         "correctAnswer": "Audi",
         "incorrectAnswers": [
             "BMW",
             "Tesla",
-            "Ferari"
+            "Ferrari"
         ]
     }
     ,{
         "id": 80,
-        "question": "What is the MK 3 Iron-Man suit made of?",
+        "question": "What is the MK 3 Iron-Man suit made of",
         "correctAnswer": "Titanium",
         "incorrectAnswers": [
             "Vibranium",
@@ -893,7 +904,7 @@
     }
     ,{
         "id": 81,
-        "question": "How many days without incedents has Bruce had at the start of The Incredible Hulk",
+        "question": "How many days without incidents has Bruce had at the start of The Incredible Hulk",
         "correctAnswer": "158",
         "incorrectAnswers": [
             "1",
@@ -903,7 +914,7 @@
     },
     {
         "id": 82,
-        "question": "What drink factory does Bruce Banner work at?",
+        "question": "What drink factory does Bruce Banner work at",
         "correctAnswer": "Pingo Doce",
         "incorrectAnswers": [
             "Coca Cola",
@@ -913,7 +924,7 @@
     }
     ,{
         "id": 83,
-        "question": "What is Bruce's username while talking with the secret scientist?",
+        "question": "What is Bruce's username while talking with the secret scientist",
         "correctAnswer": "Mr Green",
         "incorrectAnswers": [
             "Big Green",
@@ -923,7 +934,7 @@
     }
     ,{
         "id": 84,
-        "question": "Who does Emil Blonksy become?",
+        "question": "Who does Emil Blonksy become",
         "correctAnswer": "Abomination",
         "incorrectAnswers": [
             "Whip Lash",
@@ -945,7 +956,7 @@
     }
     ,{
         "id": 86,
-        "question": "Who does the Hulk throw a forklift at?",
+        "question": "Who does the Hulk throw a forklift at",
         "correctAnswer": "Emil Blonksy",
         "incorrectAnswers": [
             "Thor",
@@ -955,7 +966,7 @@
     }
     ,{
         "id": 87,
-        "question": "What Colour is the Power Stone?",
+        "question": "What colour is the Power Stone",
         "correctAnswer": "Purple",
         "incorrectAnswers": [
             "Red",
@@ -967,7 +978,7 @@
     }
     ,{
         "id": 88,
-        "question": "What Colour is the Reality Stone?",
+        "question": "What colour is the Reality Stone",
         "correctAnswer": "Red",
         "incorrectAnswers": [
             "Yellow",
@@ -979,7 +990,7 @@
     }
     ,{
         "id": 89,
-        "question": "What Colour is the Mind Stone?",
+        "question": "What colour is the Mind Stone",
         "correctAnswer": "Yellow",
         "incorrectAnswers": [
             "Red",
@@ -991,7 +1002,7 @@
     }
     ,{
         "id": 90,
-        "question": "What Colour is the Soul Stone?",
+        "question": "What colour is the Soul Stone",
         "correctAnswer": "Orange",
         "incorrectAnswers": [
             "Red",
@@ -1003,7 +1014,7 @@
     }
     ,{
         "id": 91,
-        "question": "What Colour is the Time Stone?",
+        "question": "What colour is the Time Stone",
         "correctAnswer": "Green",
         "incorrectAnswers": [
             "Red",
@@ -1015,7 +1026,7 @@
     }
     ,{
         "id": 92,
-        "question": "What Colour is the Space Stone?",
+        "question": "What colour is the Space Stone",
         "correctAnswer": "Blue",
         "incorrectAnswers": [
             "Red",
@@ -1024,12 +1035,266 @@
             "Green",
             "Purple"
         ]
+    },
+    {
+        "id": 93,
+        "question": "Which item gives Ms. Marvel her powers",
+        "correctAnswer": "Bangle",
+        "incorrectAnswers": [
+            "Anklet",
+            "Lamp",
+            "Tiara"
+        ]
+    },
+    {
+        "id": 94,
+        "question": "Which country does Ms. Marvel visit in season 1",
+        "correctAnswer": "Pakistan",
+        "incorrectAnswers": [
+            "India",
+            "Italy",
+            "Australia"
+        ]
+    },
+    {
+        "id": 95,
+        "question": "What is Ms Marvel's alter ego",
+        "correctAnswer": "Kamala Khan",
+        "incorrectAnswers": [
+            "Nakia Khan",
+            "Natasha Romanoff",
+            "Wanda Maximoff"
+        ]
+    },
+    {
+        "id": 96,
+        "question": "What mythical creatures are Clandestines in Ms. Marvel",
+        "correctAnswer": "Djinns",
+        "incorrectAnswers": [
+            "Goblins",
+            "Skrulls",
+            "Fairies"
+        ]
+    },
+    {
+        "id": 97,
+        "question": "What does the name Kamala mean in Arabic",
+        "correctAnswer": "Perfect",
+        "incorrectAnswers": [
+            "Marvel",
+            "Marvelous",
+            "Fantastic",
+            "Pure",
+            "Brave"
+        ]
+    },
+    {
+        "id": 98,
+        "question": "Where is Kamala when she first uses her powers",
+        "correctAnswer": "AvengerCon",
+        "incorrectAnswers": [
+            "Avenger Tower",
+            "Comic-Con",
+            "Pax"
+        ]
+    },
+    {
+        "id": 99,
+        "question": "Which powerful item is used as a paperweight at the TVA",
+        "correctAnswer": "Infinity Stones",
+        "incorrectAnswers": [
+            "Mjolnir",
+            "Storm Breaker",
+            "The Darkhold",
+            "Quantum Bands",
+            "Sling Rings",
+            "Arc Reactor"
+            
+        ]
+    },
+    {
+        "id": 100,
+        "question": "What is the name of the mysterious time organisation Mobius works for",
+        "correctAnswer": "Time Variance Authority",
+        "incorrectAnswers": [
+            "Time Lords",
+            "Variant Prevention Authority",
+            "Time Keepers"
+        ]
+    },
+    {
+        "id": 101,
+        "question": "Which actor plays Mobius M Mobius",
+        "correctAnswer": "Owen Wilson",
+        "incorrectAnswers": [
+            "Luke Wilson",
+            "Patrick Wilson",
+            "Rebel Wilson",
+            "Tom Wilson",
+            "Vince Vaughn"
+        ]
+    },
+    {
+        "id": 102,
+        "question": "What is Natasha Romanoff's sisters name",
+        "correctAnswer": "Yelena Belova",
+        "incorrectAnswers": [
+            "Maria Hill",
+            "Hope Van Dyne",
+            "Maria Rambeau",
+            "Katniss Everdeen"
+        ]
+    },
+    {
+        "id": 103,
+        "question": "What is the Black Widow program reffered to in the Black Widow film",
+        "correctAnswer": "The Red Room",
+        "incorrectAnswers": [
+            "The Red Dagger",
+            "The Red Ledger",
+            "The Red Sparrow",
+            "The Red Dawn"
+        ]
+    },
+    {
+        "id": 104,
+        "question": "Where is Natasha Romanoff hiding when she receives the antidote vials from her sister",
+        "correctAnswer": "Norway",
+        "incorrectAnswers": [
+            "Budapest",
+            "Texas",
+            "Moscow"
+        ]
+    },
+    {
+        "id": 105,
+        "question": "Which actor plays the Russian super soldier Alexei",
+        "correctAnswer": "David Harbour",
+        "incorrectAnswers": [
+            "David Spade",
+            "David Duchovny",
+            "David Tennant",
+            "David Lynch"
+        ]
+    },
+    {
+        "id": 106,
+        "question": "Which of the following films was not directed by the Russo brothers",
+        "correctAnswer": "Avengers: Age of Ultron",
+        "incorrectAnswers": [
+            "Captain America: The Winter Soldier",
+            "Captain America: Civil War",
+            "Avengers: Infinty War",
+            "Avengers: Endgame"
+        ]
+    },
+    {
+        "id": 107,
+        "question": "What is the super soldier program called in Captain America",
+        "correctAnswer": "Project Rebirth",
+        "incorrectAnswers": [
+            "Project Winter Soldier",
+            "Project X",
+            "Project Metamorphosis"
+        ]
+    },
+    {
+        "id": 108,
+        "question": "Which scientist develops the mind control chemical used on the Black Widows",
+        "correctAnswer": "Melina Vostokoff",
+        "incorrectAnswers": [
+            "Arnim Zola",
+            "Bolivar Trask",
+            "Jemma Simmons"
+        ]
+    },
+    {
+        "id": 109,
+        "question": "Who is the General that heads the Black Widow program",
+        "correctAnswer": "Dreykov",
+        "incorrectAnswers": [
+            "Shostakov",
+            "Egorov",
+            "Belova"
+        ]
+    },
+    {
+        "id": 110,
+        "question": "Who creates the TVA",
+        "correctAnswer": "He Who Remains",
+        "incorrectAnswers": [
+            "He Who Must Not Be Named",
+            "He Who Preserves",
+            "He Who Protects"
+        ]
+    },
+    {
+        "id": 111,
+        "question": "Which weapon can summon the Bifrost",
+        "correctAnswer": "Stormbreaker",
+        "incorrectAnswers": [
+            "Mjolnir",
+            "Godslayer",
+            "The Infinity Gauntlet"
+        ]
+    },
+    {
+        "id": 112,
+        "question": "Who destroyed Mjolnir",
+        "correctAnswer": "Hela",
+        "incorrectAnswers": [
+            "Hulk",
+            "Loki",
+            "Odin"
+        ]
+    },
+    {
+        "id": 113,
+        "question": "What is Korg made of",
+        "correctAnswer": "Rocks",
+        "incorrectAnswers": [
+            "Stones",
+            "Boulders",
+            "Sand"
+        ]
+    },
+    {
+        "id": 114,
+        "question": "What is the name of Korg's husband",
+        "correctAnswer": "Dwayne",
+        "incorrectAnswers": [
+            "John Hartley",
+            "Frank Wolff",
+            "Bravestone",
+            "Hobbs",
+            "Will Sawyer",
+            "Davis Okoye",
+            "Spencer"
+            
+        ]
+    },
+    {
+        "id": 115,
+        "question": "Who has their hair cut by Stan Lee",
+        "correctAnswer": "Thor",
+        "incorrectAnswers": [
+            "Tony Stark",
+            "Steve Rogers",
+            "Peter Quill",
+            "Clint Barton",
+            "Bruce Banner",
+            "James Rhoades",
+            "Bucky",
+            "T'challa",
+            "Dr. Strange",
+            "Peter Parker"
+        ]
     }
-
 ]
  
  
-    ,{
+    ,
+    {
         "id": ,
         "question": "",
         "correctAnswer": "",

@@ -20,11 +20,13 @@ class TriviaManager: ObservableObject {
     @Published private(set) var answerChoices: [Answer] = []
     @Published private(set) var progress: CGFloat = 0.00
     @Published private(set) var score = 0
+    @Published private(set) var questionID = 0
     @Published var incorrectAnswer = 0
     @Published var points = 0
     @Published var multiplier = 0
     @AppStorage("highscore") var highscore: Int = 0
     
+    let maxTime = 50
     @Published var timeRemaining = 50
     let timer = Timer.publish(every: 0.4, on: .main, in: .common).autoconnect() /// 0.4 makes the questions go for 20 seconds
     
@@ -70,7 +72,7 @@ class TriviaManager: ObservableObject {
             gameOver()
         }
         
-        if index + 1 < length {
+        if index + 1 < 30 {
             index += 1
             setQuestion()
         } else {
@@ -86,6 +88,7 @@ class TriviaManager: ObservableObject {
             let currentTriviaQuestion = trivia[index]
             question = currentTriviaQuestion.formattedQuestion
             answerChoices = currentTriviaQuestion.answers
+            questionID = currentTriviaQuestion.id
         }
     }
     
@@ -119,7 +122,7 @@ class TriviaManager: ObservableObject {
     }
     
     func resetTimer() {
-        timeRemaining = 50
+        timeRemaining = maxTime
     }
     
     func gameOver() {

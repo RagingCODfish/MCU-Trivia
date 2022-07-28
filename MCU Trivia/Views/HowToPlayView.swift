@@ -8,17 +8,25 @@
 import SwiftUI
 
 struct HowToPlayView: View {
+    @AppStorage("highscore") var highscore: Int = 0
+    
     var body: some View {
         VStack {
             Text("How To Play")
             
             Spacer()
                 
-            Text("Answer questions quickly to score more points, answering multiple questions correctly in a row will earn you a multiper. Incorrect answers will see you lose points and reset your multipler. An incorrect answer will also allow Thanos to collect a Stone, once he has all 6 the game is over! Once you have answered 30 questions Thanos will collect the all the stones and will snap you into game over once you give an incorrect answer!")
+            Text("")
             
             Spacer()
             
             Text("This is a quiz based solely on the Marvel Cinematic Universe!")
+            
+            Button {
+                updateHighScore()
+            } label: {
+                PrimaryButton(text: "Reset High Score")
+            }
             
             Spacer()
             
@@ -28,6 +36,12 @@ struct HowToPlayView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color("Thanos"))
     }
+    
+    func updateHighScore() {
+            highscore = 0
+            UserDefaults.standard.set(highscore, forKey: "highscore")
+        }
+    
     
 }
 

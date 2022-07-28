@@ -21,13 +21,11 @@ struct SubmitQuestionView: View {
             
             Group {
                 TextField("Enter the question", text: $question)
-                TextField("Enter the question", text: $correctAnswer)
-                TextField("Enter the question", text: $incorrectAnswer1)
-                TextField("Enter the question", text: $incorrectAnswer2)
-                TextField("Enter the question", text: $incorrectAnswer3)
-            }
-            
-            
+                TextField("Enter the correct answer", text: $correctAnswer)
+                TextField("Enter a wrong answer", text: $incorrectAnswer1)
+                TextField("Enter a wrong answer", text: $incorrectAnswer2)
+                TextField("Enter a wrong answer", text: $incorrectAnswer3)
+            }  
             // need to fix textfield color
             
             Button {

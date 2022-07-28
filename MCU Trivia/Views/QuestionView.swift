@@ -25,7 +25,7 @@ struct QuestionView: View {
 //            Text("\(triviaManager.multiplier)")
             
             VStack {
-                Text(triviaManager.question)
+                Text("\(triviaManager.question)?")
                     .bold()
                     .font(.system(size: 20))
                     .multilineTextAlignment(.center)
@@ -34,14 +34,17 @@ struct QuestionView: View {
                     .padding()
                     .foregroundColor(Color("AccentColor"))
                 
+                
+                
                 ForEach(triviaManager.answerChoices, id: \.id) { answer in
                     AnswerRow(answer: answer)
                         .environmentObject(triviaManager)
                 }
                 .padding(.horizontal)
+                //.padding(.vertical, 5)
             }
             
-            VStack {
+            HStack {
                 if triviaManager.answerSelected == true {
                     Button {
                         withAnimation(){
@@ -52,6 +55,7 @@ struct QuestionView: View {
                         PrimaryButton(text: "Next", background: Color("AccentColor"))
                     }
                 } else {
+                    
                     Image(systemName: "\(triviaManager.timeRemaining).circle")
                         .font(.largeTitle)
                         .foregroundColor(.yellow)
@@ -72,6 +76,10 @@ struct QuestionView: View {
                             }
                         }
                 }
+                Text("For Testing \(triviaManager.questionID)")
+                    .bold()
+                    .font(.system(size: 20))
+                    .foregroundColor(Color("AccentColor"))
             }
             .frame(height: 30)
             .padding()
