@@ -6,33 +6,32 @@
 //
 
 import SwiftUI
-//ptea.sima@gmail.com
 struct TriviaView: View {
     @EnvironmentObject var triviaManager: TriviaManager
     
     var body: some View {
         if triviaManager.reachedEnd {
-            VStack(spacing: 20) {
+            VStack(spacing: 10) {
+                
+                Image("glove\(triviaManager.incorrectAnswer)")
+                    .resizable()
+                    .scaledToFit()
+                
+                
                 if triviaManager.incorrectAnswer < 6 {
                     Text("You saved the Universe")
+                        .ThanosTitle()
                     
                 } else {
                     Text("You Turned To Dust!")
+                        .ThanosTitle()
                     
                 }
-                
-                Image("glove7")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 300, height: 300)
-                
-                Text("You answered \(triviaManager.score) out of \(triviaManager.index + 1)")
-                
+
+                Text("You answered \(triviaManager.score) out of \(triviaManager.length - 1) correctly")
                 Text("You scored: \(triviaManager.points)")
                 Text("Your Highest Score is \(triviaManager.highscore)")
                 
-                Text("Support the Developer who will gather the Infinity Stones and Snap you back!")
-                    .ThanosTitle()
                 
                 Button {
                     Task.init {

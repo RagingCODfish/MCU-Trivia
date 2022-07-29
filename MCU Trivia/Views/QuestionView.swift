@@ -16,7 +16,6 @@ struct QuestionView: View {
                 Image("glove\(triviaManager.incorrectAnswer)")
                     .resizable()
                     .scaledToFit()
-                    .frame(height: 350)
             }
             
             // for testing
@@ -33,7 +32,6 @@ struct QuestionView: View {
                     .frame(maxWidth: .infinity)
                     .padding()
                     .foregroundColor(Color("AccentColor"))
-                
                 
                 
                 ForEach(triviaManager.answerChoices, id: \.id) { answer in
@@ -83,8 +81,8 @@ struct QuestionView: View {
             }
             .frame(height: 30)
             .padding()
-        }
         
+        }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color("Thanos"))
         .navigationBarHidden(true)

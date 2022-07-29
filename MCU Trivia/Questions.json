@@ -138,11 +138,11 @@
     },
     {
         "id": 14,
-        "question": "Where is Thanos from",
+        "question": "Which planet is Thanos from",
         "correctAnswer": "Titan",
         "incorrectAnswers": [
             "Saturn",
-            "Uranas",
+            "Uranus",
             "Pluto"
         ]
     },
@@ -170,7 +170,7 @@
     },
     {
         "id": 17,
-        "question": "Who can't weild Mjolnir",
+        "question": "Who can't wield Mjolnir",
         "correctAnswer": "Loki",
         "incorrectAnswers": [
             "Jane Foster",
@@ -275,7 +275,7 @@
     },
     {
         "id": 27,
-        "question": "Which Spider-Man villian did not appear in Spider-Man: No Way Home",
+        "question": "Which villain did not appear in Spider-Man: No Way Home",
         "correctAnswer": "New-Goblin",
         "incorrectAnswers": [
             "Sandman",
@@ -406,7 +406,7 @@
     },
     {
         "id": 40,
-        "question": "What is the name of the fleet of Iron-Man soliders",
+        "question": "What is the name of the fleet of Iron-Man soldiers",
         "correctAnswer": "The Iron Legion",
         "incorrectAnswers": [
             "Ultron",
@@ -587,7 +587,7 @@
     },
     {
         "id": 57,
-        "question": "Which stone is given to the Collector to safe gaurd",
+        "question": "Which stone is given to the Collector to safe guard",
         "correctAnswer": "Reality Stone",
         "incorrectAnswers": [
             "Space Stone",
@@ -689,7 +689,7 @@
     },
     {
         "id": 66,
-        "question": "Which Las Vages Casino was the awards cermony held at in Iron-Man",
+        "question": "Which Las Vegas Casino was the awards cermony held at in Iron-Man",
         "correctAnswer": "Caesers Palace",
         "incorrectAnswers": [
             "Bellagio Hotel & Casino",
@@ -738,7 +738,7 @@
         "question": "What was the main weapon on the first Iron-Man suit",
         "correctAnswer": "Flame Thrower",
         "incorrectAnswers": [
-            "Arc Blaters",
+            "Arc Blasters",
             "Ion Blaster",
             "Lightsaber"
         ]
@@ -1289,9 +1289,447 @@
             "Dr. Strange",
             "Peter Parker"
         ]
+    },
+    {
+        "id": 116,
+        "question": "What name does Peter Parker give his suits AI",
+        "correctAnswer": "Karen",
+        "incorrectAnswers": [
+            "Sharon",
+            "Michelle",
+            "Susan",
+            "Siri",
+            "Alexa",
+            "Kaitlyn",
+            "Keeley",
+            "Mellisa",
+            "Kerrilee",
+            "McKenzie",
+            "Kayla",
+            "Katherine",
+            "Friday"
+        ]
+    },
+    {
+        "id": 117,
+        "question": "Which of the following is not one of Hawkeye's trick arrows",
+        "correctAnswer": "Viper Arrows",
+        "incorrectAnswers": [
+            "Explosive Arrow",
+            "Hacker Arrow",
+            "Acid Arrow",
+            "Electro Arrow",
+            "Rocket Arrow",
+            "Boomerang Arrow"
+        ]
+    },
+    {
+        "id": 118,
+        "question": "What weapon does Kate Bishop use?",
+        "correctAnswer": "Bow",
+        "incorrectAnswers": [
+            "Sword",
+            "Shield",
+            "Magic",
+            "Hammer",
+            "Axe",
+            "Spear",
+            "Flail"
+        ]
+    },
+    {
+        "id": 119,
+        "question": "Who does Tony Stark name JARVIS after",
+        "correctAnswer": "Edwin Jarvis",
+        "incorrectAnswers": [
+            "Paul Jarvis",
+            "Jarvis Stark",
+            "Jarvis Carter"
+        ]
+    },
+    {
+        "id": 120,
+        "question": "Which superhero has not been investigated by Jimmy Woo",
+        "correctAnswer": "Spider-Man",
+        "incorrectAnswers": [
+            "Ant-Man",
+            "Wasp",
+            "Scarlet Witch"
+        ]
+    },
+    {
+        "id": 121,
+        "question": "Which organization does Jimmy Woo work for",
+        "correctAnswer": "FBI",
+        "incorrectAnswers": [
+            "SWORD",
+            "SAS",
+            "DOJ",
+            "DEA",
+            "Hydra"
+        ]
+    },
+    {
+        "id": 122,
+        "question": "Which part of New York is Steve Rogers from",
+        "correctAnswer": "Brooklyn",
+        "incorrectAnswers": [
+            "Queens",
+            "The Bronx",
+            "Staten Island",
+            "Manhattan"
+        ]
+    },
+    {
+        "id": 123,
+        "question": "Which part of New York is Peter Parker from",
+        "correctAnswer": "Queens",
+        "incorrectAnswers": [
+            "Brooklyn",
+            "The Bronx",
+            "Staten Island",
+            "Manhattan"
+        ]
+    },
+    {
+        "id": 124,
+        "question": "Which organization conducts research on Vision's body",
+        "correctAnswer": "SWORD",
+        "incorrectAnswers": [
+            "SHIELD",
+            "Hydra",
+            "CIA"
+        ]
+    },
+    {
+        "id": 125,
+        "question": "What does the \"S\" stand for in SWORD",
+        "correctAnswer": "Sentient",
+        "incorrectAnswers": [
+            "Strong",
+            "Strategic",
+            "Special",
+            "Secret"
+        ]
+    },
+    {
+        "id": 126,
+        "question": "What does the \"W\" stand for in SWORD",
+        "correctAnswer": "Weapon",
+        "incorrectAnswers": [
+            "Will",
+            "World",
+            "Wakanda",
+            "Wrestling",
+            "Wide",
+            "Working",
+            "Women"
+        ]
+    },
+    {
+        "id": 127,
+        "question": "What does the \"O\" stand for in SWORD",
+        "correctAnswer": "Observation",
+        "incorrectAnswers": [
+            "Objective",
+            "Open",
+            "Organization",
+            "Official"
+        ]
+    },
+    {
+        "id": 128,
+        "question": "What does the \"R\" stand for in SWORD",
+        "correctAnswer": "Response",
+        "incorrectAnswers": [
+            "Recruitment",
+            "Rescue",
+            "Reconnaissance",
+            "Real",
+            "Recovery"
+        ]
+    },
+    {
+        "id": 129,
+        "question": "What does the \"D\" stand for in SWORD",
+        "correctAnswer": "Division",
+        "incorrectAnswers": [
+            "Delta",
+            "Department",
+            "Detroit",
+            "Disco",
+            "Dimension",
+            "Demand",
+            "Doctor"
+        ]
+    },
+    {
+        "id": 130,
+        "question": "During which war was Steve Rogers enlisted into the US Army",
+        "correctAnswer": "World War II",
+        "incorrectAnswers": [
+            "World War I",
+            "Vietnam War",
+            "Civil War"
+        ]
+    },
+    {
+        "id": 131,
+        "question": "Which city was destroyed by Ultron",
+        "correctAnswer": "Sokovia",
+        "incorrectAnswers": [
+            "Budapest",
+            "Vienna",
+            "Prague",
+            "New York",
+            "Wakanda"
+        ]
+    },
+    {
+        "id": 132,
+        "question": "What is Quicksilver's first name",
+        "correctAnswer": "Pietro",
+        "incorrectAnswers": [
+            "Peter",
+            "Petrov",
+            "Patrick"
+        ]
+    },
+    {
+        "id": 133,
+        "question": "What legendary form of magic does Wanda Maximoff posses",
+        "correctAnswer": "Chaos Magic",
+        "incorrectAnswers": [
+            "Asgardian Magic",
+            "Eldritch Magic",
+            "Chi Magic"
+        ]
+    },
+    {
+        "id": 134,
+        "question": "Which MCU show does Agatha Harkness first appear",
+        "correctAnswer": "WandaVision",
+        "incorrectAnswers": [
+            "Loki",
+            "The Falcon and the Winter Soldier",
+            "Hawkeye",
+            "Ms. Marvel"
+        ]
+    },
+    {
+        "id": 135,
+        "question": "Which town does Wanda take control of",
+        "correctAnswer": "Westview",
+        "incorrectAnswers": [
+            "Sunnydale",
+            "Middleton",
+            "Rosewood",
+            "Bon Temps",
+            "Riverdale"
+        ]
+    },
+    {
+        "id": 136,
+        "question": "Which scientist is recruited by SWORD to investigate the Westview anomaly",
+        "correctAnswer": "Darcy Lewis",
+        "incorrectAnswers": [
+            "Erik Selvig",
+            "Jane Foster",
+            "Arnim Zola"
+        ]
+    },
+    {
+        "id": 137,
+        "question": "Who is not a member of Hydra",
+        "correctAnswer": "Phil Coulson",
+        "incorrectAnswers": [
+            "Arnim Zola",
+            "Jack Rollins",
+            "Grant Ward",
+            "Brock Rumlow"
+        ]
+    },
+    {
+        "id": 138,
+        "question": "Who is not a member of SHIELD",
+        "correctAnswer": "Jane Foster",
+        "incorrectAnswers": [
+            "Peggy Carter",
+            "Phil Coulson",
+            "Howard Stark",
+            "Clint Barton",
+            "Natasha Romanoff",
+            "Hank Pym"
+        ]
+    },
+    {
+        "id": 139,
+        "question": "Who is the leader of Flag Smashers",
+        "correctAnswer": "Karli Morgenthau",
+        "incorrectAnswers": [
+            "Sam Wilson",
+            "Helmet Zemo",
+            "The Mandarin"
+        ]
+    },
+    {
+        "id": 140,
+        "question": "Which actor provides the voice for Ultron",
+        "correctAnswer": "James Spader",
+        "incorrectAnswers": [
+            "Jeremy Irons",
+            "Kelsey Grammer",
+            "Tim Allen",
+            "James Earl Jones",
+            "Peter Cullen",
+            "Hugo Weaving"
+        ]
+    },
+    {
+        "id": 141,
+        "question": "How many realms orbit Midgard",
+        "correctAnswer": "9",
+        "incorrectAnswers": [
+            "10",
+            "69",
+            "99"
+        ]
+    },
+    {
+        "id": 142,
+        "question": "What is the homeworld of the Dark Elves",
+        "correctAnswer": "Svartalfheim",
+        "incorrectAnswers": [
+            "Midgard",
+            "Alfheim",
+            "Vanaheim",
+            "Niflheim",
+            "Musphelheim",
+            "Helheim",
+            "Jotenheim"
+        ]
+    },
+    {
+        "id": 143,
+        "question": "What is the homeworld of the Frost Giants",
+        "correctAnswer": "Jotenheim",
+        "incorrectAnswers": [
+            "Midgard",
+            "Alfheim",
+            "Vanaheim",
+            "Niflheim",
+            "Musphelheim",
+            "Helheim",
+            "Svartalfheim"
+        ]
+    },
+    {
+        "id": 144,
+        "question": "Which realm is Earth a part of",
+        "correctAnswer": "Midgard",
+        "incorrectAnswers": [
+            "Alfheim",
+            "Vanaheim",
+            "Niflheim",
+            "Musphelheim",
+            "Helheim",
+            "Jotenheim",
+            "Svartalfheim"
+        ]
+    },
+    {
+        "id": 145,
+        "question": "Who are the Sapce Pirates that fight alongside the Dark Elves",
+        "correctAnswer": "The Marauders",
+        "incorrectAnswers": [
+            "The Swashbucklers",
+            "The Cursed",
+            "The Privateers",
+            "The Plunderers"
+        ]
+    },
+    {
+        "id": 146,
+        "question": "Who did not take the Super Soldier serum",
+        "correctAnswer": "Sam Wilson",
+        "incorrectAnswers": [
+            "Steve Rogers",
+            "Bucky Barnes",
+            "Isaiah Bradley",
+            "John Walker"
+        ]
+    },
+    {
+        "id": 147,
+        "question": "Which scientist recreates the Super Soldier serum for the Power Broker",
+        "correctAnswer": "Wilfred Nagel",
+        "incorrectAnswers": [
+            "Arnim Zola",
+            "Bruce Banner",
+            "Samuel Sterns"
+        ]
+    },
+    {
+        "id": 148,
+        "question": "What is Hela the Goddess of",
+        "correctAnswer": "Death",
+        "incorrectAnswers": [
+            "Wolves",
+            "Suffering",
+            "Weapons",
+            "Fear",
+            "Hate",
+            "Hair",
+            "Hammers"
+        ]
+    },
+    {
+        "id": 149,
+        "question": "Who is Odin's firstborn",
+        "correctAnswer": "Hela",
+        "incorrectAnswers": [
+            "Thor",
+            "Loki",
+            "Heimdall"
+        ]
+    },
+    {
+        "id": 150,
+        "question": "How many souls can Heimdall see",
+        "correctAnswer": "10 Trillion",
+        "incorrectAnswers": [
+            "9 Trillion",
+            "11 Trillion",
+            "10 Billion"
+        ]
+    },
+    {
+        "id": 151,
+        "question": "To wield Mjolnir you must be ...",
+        "correctAnswer": "Worthy",
+        "incorrectAnswers": [
+            "Strong",
+            "Smart",
+            "Tall",
+            "Thor"
+        ]
+    },
+    {
+        "id": 152,
+        "question": "What are the names of Skurge's guns",
+        "correctAnswer": "Des & Troy",
+        "incorrectAnswers": [
+            "Dick & Tom",
+            "Tom & Jerry",
+            "Lois & Clarke",
+            "His & Hers",
+            "Starsky & Hutch",
+            "Woody & Buzz",
+            "Yin & Yang",
+            "Daft & Punk"
+        ]
     }
 ]
- 
  
     ,
     {
@@ -1304,6 +1742,7 @@
             ""
         ]
     }
+ 
 
  
  

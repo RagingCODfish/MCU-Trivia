@@ -9,7 +9,8 @@ import Foundation
 import SwiftUI
 
 class TriviaManager: ObservableObject {
-    let webpage = "https://ragingcodfish.github.io/MarvelTrivia/"
+    //let webpage = "https://ragingcodfish.github.io/MarvelTrivia/"
+    let webpage = "https://ragingcodfish.github.io/MCU-Trivia/"
     
     private(set) var trivia: [Trivia] = []
     @Published private(set) var length = 0
@@ -72,7 +73,7 @@ class TriviaManager: ObservableObject {
             gameOver()
         }
         
-        if index + 1 < 30 {
+        if index + 1 < length {
             index += 1
             setQuestion()
         } else {
