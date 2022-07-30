@@ -37,7 +37,7 @@ struct Trivia: Decodable {
             
             let allAnswers = incorrects + correct
             
-            return allAnswers.shuffled()
+            return allAnswers//.shuffled()
             
         } catch {
             print("Error setting answers: \(error)")

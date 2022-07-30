@@ -31,7 +31,7 @@ final class Interstitial: NSObject, GADFullScreenContentDelegate {
                     self.interstitial?.fullScreenContentDelegate = self
                 }
             } else {
-                print("Error == \(error) and localized info == \(error?.localizedDescription)")
+                print("Error == \(String(describing: error)) and localized info == \(String(describing: error?.localizedDescription))")
             }
         }
     }

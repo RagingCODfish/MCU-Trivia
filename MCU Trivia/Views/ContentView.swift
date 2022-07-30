@@ -9,7 +9,7 @@ import SwiftUI
 import GoogleMobileAds
 
 struct ContentView: View {
-    @StateObject var triviaManager = TriviaManager()
+    @EnvironmentObject var triviaManager: TriviaManager
     
     init() {
         GADMobileAds.sharedInstance().start(completionHandler: nil)
@@ -18,7 +18,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             NavigationView {
-                VStack(spacing: 40) {
+                VStack(spacing: 20) {
                     VStack(spacing: 20) {
                         Text("MCU Trivia")
                             .ThanosTitle()                        
@@ -30,16 +30,6 @@ struct ContentView: View {
                         
                         Text("Can you survive the Inevitable?")
                             .foregroundColor(Color("AccentColor"))
-                            
-                        Text("Your current High Score is \(triviaManager.highscore)")
-                            .foregroundColor(Color("AccentColor"))
-                    }
-                    
-                    NavigationLink {
-                        TriviaView()
-                            .environmentObject(triviaManager)
-                    } label: {
-                        PrimaryButton(text: "Assemble")
                     }
                     
                     NavigationLink {
@@ -47,6 +37,31 @@ struct ContentView: View {
                     } label: {
                         PrimaryButton(text: "How to play")
                     }
+                    
+                    Spacer()
+                    
+                    NavigationLink {
+                        TriviaView(endless: false)
+                    } label: {
+                        PrimaryButton(text: "Short Quiz")
+                    }
+                    
+                    Text("Your current High Score for short quiz is \(triviaManager.highscore)")
+                        .foregroundColor(Color("AccentColor"))
+                    
+                    
+                    NavigationLink {
+                        TriviaView(endless: true)
+                    } label: {
+                        PrimaryButton(text: "Endless")
+                    }
+                    
+                    
+                    Text("Your current High Score for Endless is \(triviaManager.highscore)")
+                        .foregroundColor(Color("AccentColor"))
+                    
+                    
+                    
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .edgesIgnoringSafeArea(.all)

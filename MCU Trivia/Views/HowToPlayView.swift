@@ -41,8 +41,6 @@ struct HowToPlayView: View {
             highscore = 0
             UserDefaults.standard.set(highscore, forKey: "highscore")
         }
-    
-    
 }
 
 struct HowToPlayView_Previews: PreviewProvider {

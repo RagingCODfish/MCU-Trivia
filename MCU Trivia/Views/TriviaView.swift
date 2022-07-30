@@ -6,8 +6,10 @@
 //
 
 import SwiftUI
+
 struct TriviaView: View {
     @EnvironmentObject var triviaManager: TriviaManager
+    var endless: Bool
     
     var body: some View {
         if triviaManager.reachedEnd {
@@ -16,7 +18,6 @@ struct TriviaView: View {
                 Image("glove\(triviaManager.incorrectAnswer)")
                     .resizable()
                     .scaledToFit()
-                
                 
                 if triviaManager.incorrectAnswer < 6 {
                     Text("You saved the Universe")
@@ -27,8 +28,8 @@ struct TriviaView: View {
                         .ThanosTitle()
                     
                 }
-
-                Text("You answered \(triviaManager.score) out of \(triviaManager.length - 1) correctly")
+                
+                Text("You answered \(triviaManager.score) out of \(triviaManager.index + 1) correctly")
                 Text("You scored: \(triviaManager.points)")
                 Text("Your Highest Score is \(triviaManager.highscore)")
                 
@@ -48,6 +49,7 @@ struct TriviaView: View {
                     PrimaryButton(text: "Submit a Question")
                 }
             }
+            .onAppear { triviaManager.endless = triviaManager.endless }
             .foregroundColor(Color("AccentColor"))
             .padding()
             .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -55,16 +57,17 @@ struct TriviaView: View {
         } else {
             withAnimation(){
                 QuestionView()
-                    .environmentObject(triviaManager)
+
+                    
             }
         }
-        
     }
 }
 
+
 struct TriviaView_Previews: PreviewProvider {
     static var previews: some View {
-        TriviaView()
-            .environmentObject(TriviaManager())
+        TriviaView(endless: true)
+
     }
 }

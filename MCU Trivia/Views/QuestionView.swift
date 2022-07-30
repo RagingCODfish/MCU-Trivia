@@ -18,11 +18,6 @@ struct QuestionView: View {
                     .scaledToFit()
             }
             
-            // for testing
-//            Text("\(triviaManager.incorrectAnswer)")
-//            Text("\(triviaManager.points)")
-//            Text("\(triviaManager.multiplier)")
-            
             VStack {
                 Text("\(triviaManager.question)?")
                     .bold()
@@ -36,10 +31,9 @@ struct QuestionView: View {
                 
                 ForEach(triviaManager.answerChoices, id: \.id) { answer in
                     AnswerRow(answer: answer)
-                        .environmentObject(triviaManager)
+
                 }
                 .padding(.horizontal)
-                //.padding(.vertical, 5)
             }
             
             HStack {
@@ -63,8 +57,7 @@ struct QuestionView: View {
                                     triviaManager.incorrectAnswer += 1
                                     triviaManager.goToNextQuestion()
                                     triviaManager.resetTimer()
-                                    triviaManager.multiplier = 0
-                                    
+                                    triviaManager.multiplier = 0   
                                 }
                             } else {
                                 withAnimation() {
@@ -92,6 +85,6 @@ struct QuestionView: View {
 struct QuestionView_Previews: PreviewProvider {
     static var previews: some View {
         QuestionView()
-            .environmentObject(TriviaManager())
+
     }
 }

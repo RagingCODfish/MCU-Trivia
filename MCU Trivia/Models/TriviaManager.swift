@@ -26,6 +26,8 @@ class TriviaManager: ObservableObject {
     @Published var points = 0
     @Published var multiplier = 0
     @AppStorage("highscore") var highscore: Int = 0
+    var endless = true
+    
     
     let maxTime = 50
     @Published var timeRemaining = 50
@@ -57,7 +59,7 @@ class TriviaManager: ObservableObject {
                 self.progress = 0.00
                 self.reachedEnd = false
                 self.incorrectAnswer = 0  // 6 for testing ---- 0 for release
-                self.trivia = decodedData.shuffled() //ordered for testing
+                self.trivia = decodedData //.shuffled() //ordered for testing
                 self.length = self.trivia.count
                 self.setQuestion()
                 
@@ -73,13 +75,24 @@ class TriviaManager: ObservableObject {
             gameOver()
         }
         
-        if index + 1 < length {
-            index += 1
-            setQuestion()
+        if endless {
+            if index + 1 < length {
+                index += 1
+                setQuestion()
+            } else {
+                reachedEnd = true
+                gameOver()
+            }
         } else {
-            reachedEnd = true
-            gameOver()
+            if index + 1 < 30 {
+                index += 1
+                setQuestion()
+            } else {
+                reachedEnd = true
+                gameOver()
+            }
         }
+        
     }
     
     func setQuestion() {
