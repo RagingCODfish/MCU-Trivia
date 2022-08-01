@@ -1487,7 +1487,7 @@
     },
     {
         "id": 132,
-        "question": "What is Quicksilver's first name",
+        "question": "What is Wanda's brothers first name",
         "correctAnswer": "Pietro",
         "incorrectAnswers": [
             "Peter",
@@ -1639,7 +1639,7 @@
     },
     {
         "id": 145,
-        "question": "Who are the Sapce Pirates that fight alongside the Dark Elves",
+        "question": "Who are the Space Pirates that fight alongside the Dark Elves",
         "correctAnswer": "The Marauders",
         "incorrectAnswers": [
             "The Swashbucklers",
@@ -1727,6 +1727,703 @@
             "Woody & Buzz",
             "Yin & Yang",
             "Daft & Punk"
+        ]
+    },
+    {
+        "id": 153,
+        "question": "What is the first super hero name Ms. Marvel is given by the media",
+        "correctAnswer": "Night Light",
+        "incorrectAnswers": [
+            "Lantern",
+            "Star Girl",
+            "Light Girl",
+            "Starlight"
+        ]
+    },
+    {
+        "id": 154,
+        "question": "What is Loki the God of",
+        "correctAnswer": "Mischief",
+        "incorrectAnswers": [
+            "Tricks",
+            "Trouble",
+            "Rain",
+            "Power",
+            "War",
+            "Immortality",
+            "Daggers",
+            "Frost"
+        ]
+    },
+    {
+        "id": 155,
+        "question": "What is the name of the terrorist group in The Falcon and the Winter Soldier",
+        "correctAnswer": "Flag Smashers",
+        "incorrectAnswers": [
+            "Hell Raisers",
+            "Flag Stompers",
+            "Freedom's Light",
+            "Free Radicals",
+            "Flag Wavers"
+        ]
+    },
+    {
+        "id": 156,
+        "question": "Who does the US Government appoint as the next Captain America",
+        "correctAnswer": "John Walker",
+        "incorrectAnswers": [
+            "Bucky Barnes",
+            "Scott Lang",
+            "Sam Wilson"
+        ]
+    },
+    {
+        "id": 157,
+        "question": "What is the criminal sanctuary island in The Falcon and the Winter Soldier",
+        "correctAnswer": "Madripoor",
+        "incorrectAnswers": [
+            "Mauritius",
+            "Atlantis",
+            "Thule",
+            "The Raft"
+        ]
+    },
+    {
+        "id": 158,
+        "question": "Which realm is Loki the rightful king of",
+        "correctAnswer": "Jotunheim",
+        "incorrectAnswers": [
+            "Midgard",
+            "Alfheim",
+            "Vanaheim",
+            "Niflheim",
+            "Musphelheim",
+            "Helheim",
+            "Svartalfheim"
+        ]
+    },
+    {
+        "id": 159,
+        "question": "Which of these characters is also known as the Power Broker",
+        "correctAnswer": "Sharon Carter",
+        "incorrectAnswers": [
+            "Pepper Potts",
+            "Helmut Zemo",
+            "Wilfred Nagel",
+            "Peggy Carter"
+        ]
+    },
+    {
+        "id": 160,
+        "question": "What is Happy’s last name",
+        "correctAnswer": "Hogan",
+        "incorrectAnswers": [
+            "Hunter",
+            "Hefner",
+            "Hopper",
+            "Harrington"
+        ]
+    },
+    {
+        "id": 161,
+        "question": "What species is Gamora",
+        "correctAnswer": "Zehoberi",
+        "incorrectAnswers": [
+            "Titan",
+            "Human",
+            "Chitauri"
+        ]
+    },
+    {
+        "id": 162,
+        "question": "Which character has not been a member of the Ravagers",
+        "correctAnswer": "Skurge",
+        "incorrectAnswers": [
+            "Yondu Udonta",
+            "Taserface",
+            "Kraglin",
+            "Halfnut"
+        ]
+    },
+    {
+        "id": 163,
+        "question": "Who is the dictator of Sakaar",
+        "correctAnswer": "Grandmaster",
+        "incorrectAnswers": [
+            "High King",
+            "Ringmaster",
+            "The Collector"
+        ]
+    },
+    {
+        "id": 164,
+        "question": "What are the arena battles on Sakaar called",
+        "correctAnswer": "Contest of Champions",
+        "incorrectAnswers": [
+            "Contest of Legends",
+            "Contest of Heroes",
+            "Contest of Gladiators"
+        ]
+    },
+    {
+        "id": 165,
+        "question": "What is the name of the prison the Guardians of the Galaxy escape from",
+        "correctAnswer": "Kyln",
+        "incorrectAnswers": [
+            "Hell",
+            "Fridge",
+            "Alcatraz"
+        ]
+    },
+    {
+        "id": 166,
+        "question": "Which of the following is not a part of Guardians of the Galaxy",
+        "correctAnswer": "Korg",
+        "incorrectAnswers": [
+            "Groot",
+            "Rocket",
+            "Starlord",
+            "Gamora",
+            "Mantis",
+            "Drax"
+        ]
+    },
+    {
+        "id": 167,
+        "question": "Which actor plays Ego",
+        "correctAnswer": "Kurt Russell",
+        "incorrectAnswers": [
+            "Jeff Bridges",
+            "Pierce Brosnan",
+            "George Clooney"
+        ]
+    },
+    {
+        "id": 168,
+        "question": "Which actor plays the Grandmaster",
+        "correctAnswer": "Jeff Goldblum",
+        "incorrectAnswers": [
+            "Benicio Del Toro",
+            "Ray Liotta",
+            "Will Ferrell"
+        ]
+    },
+    {
+        "id": 169,
+        "question": "Where does Jane Foster first meet Thor",
+        "correctAnswer": "New Mexico",
+        "incorrectAnswers": [
+            "Nevada",
+            "Colorado",
+            "New York"
+        ]
+    },
+    {
+        "id": 170,
+        "question": "Which hero has not served in the US military",
+        "correctAnswer": "Iron Man",
+        "incorrectAnswers": [
+            "Iron Patriot",
+            "Captain America",
+            "Captain Marvel",
+            "The Winter Soldier"
+        ]
+    },
+    {
+        "id": 171,
+        "question": "Which of the following Avengers does not wear a cape",
+        "correctAnswer": "Captain Marvel",
+        "incorrectAnswers": [
+            "Doctor Strange",
+            "Thor",
+            "Vision"
+        ]
+    },
+    {
+        "id": 172,
+        "question": "What are the flying command centers used by SHIELD called",
+        "correctAnswer": "Helicarriers",
+        "incorrectAnswers": [
+            "Stealth ships",
+            "Strike centers",
+            "Air carriers"
+        ]
+    },
+    {
+        "id": 173,
+        "question": "Who created the Ultron program",
+        "correctAnswer": "Tony Stark",
+        "incorrectAnswers": [
+            "James Rhodes",
+            "Nick Fury",
+            "Baron Strucker",
+            "Baron Zemo"
+        ]
+    },
+    {
+        "id": 174,
+        "question": "Who killed Tony Stark’s parents",
+        "correctAnswer": "Winter Soldier",
+        "incorrectAnswers": [
+            "Ivan Vanko",
+            "Aldrich Killian",
+            "Red Skull"
+        ]
+    },
+    {
+        "id": 175,
+        "question": "Who does Thanos sacrifice to get the soul stone",
+        "correctAnswer": "Gamora",
+        "incorrectAnswers": [
+            "Nebula",
+            "Star lord",
+            "Black Widow"
+        ]
+    },
+    {
+        "id": 176,
+        "question": "What did Scott Lang go to prison for",
+        "correctAnswer": "Burglary",
+        "incorrectAnswers": [
+            "Murder",
+            "Fraud",
+            "Assault"
+        ]
+    },
+    {
+        "id": 177,
+        "question": "Where does Scott Lang serve time",
+        "correctAnswer": "San Quentin State Prison",
+        "incorrectAnswers": [
+            "Alcatraz",
+            "Folsom State Prison",
+            "Havenworth Federal Penitentiary"
+        ]
+    },
+    {
+        "id": 178,
+        "question": "What ability does the Yellowjacket Suit have",
+        "correctAnswer": "Advanced shrinking",
+        "incorrectAnswers": [
+            "Invisibility",
+            "Teleportation",
+            "Electrocution"
+        ]
+    },
+    {
+        "id": 179,
+        "question": "Who sells the Ant-Man suit to Hydra(needs to to be checked)",
+        "correctAnswer": "Darren Cross",
+        "incorrectAnswers": [
+            "Scott Lang",
+            "Hank Pym",
+            "Hope van Dyne"
+        ]
+    },
+    {
+        "id": 180,
+        "question": "Who founded Hydra(needs to to be checked)",
+        "correctAnswer": "Hive",
+        "incorrectAnswers": [
+            "Red Skull",
+            "Baron Strucker",
+            "Thanos"
+        ]
+    },
+    {
+        "id": 181,
+        "question": "Which superhero works with X-Con Security consultants",
+        "correctAnswer": "Ant-Man",
+        "incorrectAnswers": [
+            "Iron Man",
+            "Black Panther",
+            "Hulk"
+        ]
+    },
+    {
+        "id": 182,
+        "question": "What power source does the Superhuman Ghost need to survive",
+        "correctAnswer": "Quantum energy",
+        "incorrectAnswers": [
+            "Adamantium",
+            "Gamma radiation",
+            "Nuclear power"
+        ]
+    },
+    {
+        "id": 183,
+        "question": "Who of the following helps create the first Quantum Tunnel",
+        "correctAnswer": "Hank Pym",
+        "incorrectAnswers": [
+            "Hope Van Dyme",
+            "Tony Stark",
+            "Howard Stark"
+        ]
+    },
+    {
+        "id": 184,
+        "question": "Where is Ant-Man during the first Snap of the Infinity gauntlet",
+        "correctAnswer": "Quantum realm",
+        "incorrectAnswers": [
+            "Wakanda",
+            "Prison",
+            "Titan"
+        ]
+    },
+    {
+        "id": 185,
+        "question": "Which of the following isn’t a hobby Ant-Man takes on during house arrest",
+        "correctAnswer": "Writing novels",
+        "incorrectAnswers": [
+            "Closeup magic",
+            "Drumming",
+            "Making paper cranes",
+            "Bowling"
+        ]
+    },
+    {
+        "id": 186,
+        "question": "Why was Ant-Man put on house arrest",
+        "correctAnswer": "Breaking the Sokovia Accords",
+        "incorrectAnswers": [
+            "Burglary",
+            "Violating parole",
+            "Assault"
+        ]
+    },
+    {
+        "id": 187,
+        "question": "Who defeats Ronan the Accuser",
+        "correctAnswer": "Guardians of the Galaxy",
+        "incorrectAnswers": [
+            "Thor",
+            "Thanos",
+            "Captain Marvel"
+        ]
+    },
+    {
+        "id": 188,
+        "question": "What race is Ego",
+        "correctAnswer": "Celestials",
+        "incorrectAnswers": [
+            "Eternals",
+            "Cosmic Entities",
+            "Kronans"
+        ]
+    },
+    {
+        "id": 189,
+        "question": "What did the Eternals protect earth from",
+        "correctAnswer": "Deviants",
+        "incorrectAnswers": [
+            "Dinosaurs",
+            "Variants",
+            "Asgaardians"
+        ]
+    },
+    {
+        "id": 190,
+        "question": "When did the Eternals arrive on Earth",
+        "correctAnswer": "5000BC",
+        "incorrectAnswers": [
+            "10000BC",
+            "100BC",
+            "500BC"
+        ]
+    },
+    {
+        "id": 191,
+        "question": "What is Thena the goddess of",
+        "correctAnswer": "War",
+        "incorrectAnswers": [
+            "Peace",
+            "Thunder",
+            "Olympia"
+        ]
+    },
+    {
+        "id": 192,
+        "question": "Which character can project a golden, cosmic energy-enhanced exoskeleton",
+        "correctAnswer": "Gilgamesh",
+        "incorrectAnswers": [
+            "Black Panther",
+            "Thor",
+            "Thena"
+        ]
+    },
+    {
+        "id": 193,
+        "question": "What power does Druig have",
+        "correctAnswer": "Mind control",
+        "incorrectAnswers": [
+            "Super strength",
+            "Invisibility",
+            "Telekinesis",
+            "Teleportation"
+        ]
+    },
+    {
+        "id": 194,
+        "question": "Who is afflicted by Mahd Wy'ry",
+        "correctAnswer": "Thena",
+        "incorrectAnswers": [
+            "Ajak",
+            "Sprite",
+            "Druig",
+            "Ikaris",
+            "Gilgamesh",
+            "Phastos",
+            "Sersi",
+            "Makkari",
+            "Kingo"
+        ]
+    },
+    {
+        "id": 195,
+        "question": "Which of these characters cannot create illusions",
+        "correctAnswer": "Ajak",
+        "incorrectAnswers": [
+            "Loki",
+            "Scarlet Witch",
+            "Sprite"
+        ]
+    },
+    {
+        "id": 196,
+        "question": "Which Eternal appears to be a child",
+        "correctAnswer": "Sprite",
+        "incorrectAnswers": [
+            "Druig",
+            "Sersi",
+            "Ikaris",
+            "Kingo"
+        ]
+    },
+    {
+        "id": 197,
+        "question": "Who of the following cannot fly without technology",
+        "correctAnswer": "Starlord",
+        "incorrectAnswers": [
+            "Ikaris",
+            "Captain Marvel",
+            "Scarlet Witch"
+        ]
+    },
+    {
+        "id": 198,
+        "question": "Which of the powers below does Ikaris have",
+        "correctAnswer": "Optic Blasts",
+        "incorrectAnswers": [
+            "Mind Control",
+            "Matter Transmutation",
+            "Cosmic Healing"
+        ]
+    },
+    {
+        "id": 199,
+        "question": "Who sends the Eternals to Earth",
+        "correctAnswer": "Prime Celestial",
+        "incorrectAnswers": [
+            "First Eternal",
+            "He Who Remains",
+            "Odin"
+        ]
+    },
+    {
+        "id": 200,
+        "question": "What is the Eternals ship called",
+        "correctAnswer": "Domo",
+        "incorrectAnswers": [
+            "Milano",
+            "Eclector",
+            "Benatar",
+            "Dark Aster"
+        ]
+    },
+    {
+        "id": 201,
+        "question": "What is the Ravagers ship called (needs to to be checked)",
+        "correctAnswer": "Eclector",
+        "incorrectAnswers": [
+            "Milano",
+            "Domo",
+            "Benatar",
+            "Dark Aster"
+        ]
+    },
+    {
+        "id": 202,
+        "question": "Which of these weapons was stored in Odin’s Vault",
+        "correctAnswer": "The Eternal Flame",
+        "incorrectAnswers": [
+            "The Godslayer",
+            "Stormbreaker",
+            "The Staff Of The Living Tribunal"
+        ]
+    },
+    {
+        "id": 203,
+        "question": "What song does Star-Lord sing to distract Ronin",
+        "correctAnswer": "O-o-h Child",
+        "incorrectAnswers": [
+            "Escape (The Pina Colada Song)",
+            "Hooked on a Feeling",
+            "Go All The Way",
+            "Moonage Daydream",
+            "Cherry Bomb",
+            "Footloose"
+        ]
+    },
+    {
+        "id": 204,
+        "question": "Which famous actor does Mantis think is a part of the Avengers",
+        "correctAnswer": "Kevin Bacon",
+        "incorrectAnswers": [
+            "Robin Williams",
+            "Will Smith",
+            "Chris Rock",
+            "Matt Damon"
+        ]
+    },
+    {
+        "id": 205,
+        "question": "What movie gives Spider-Man his idea to save Dr. Strange",
+        "correctAnswer": "Alien",
+        "incorrectAnswers": [
+            "Predator",
+            "Godzilla",
+            "King Kong",
+            "Mimic",
+            "Antz",
+            "A Bugs Life"
+        ]
+    },
+    {
+        "id": 206,
+        "question": "What movie does Star-Lord think is the best of all time",
+        "correctAnswer": "Footloose",
+        "incorrectAnswers": [
+            "Flash Dance",
+            "Top Gun",
+            "Grease"
+        ]
+    },
+    {
+        "id": 207,
+        "question": "Where does the first scene take place in Iron-Man 2",
+        "correctAnswer": "Ivan Vanko's house",
+        "incorrectAnswers": [
+            "Tony Stark's House",
+            "Stark Expo",
+            "The Senate"
+        ]
+    },
+    {
+        "id": 208,
+        "question": "What type of Doctor is Dr. Strange",
+        "correctAnswer": "Neurosurgeon",
+        "incorrectAnswers": [
+            "Cardiothoracic Surgeon",
+            "General Surgeon",
+            "Orthopaedic Surgeon",
+            "Paediatric Surgeon",
+            "Plastic & Reconstructive Surgeon",
+            "Urology Surgeon"
+        ]
+    },
+    {
+        "id": 209,
+        "question": "Which real life Billionaire does Tony see at the Monaco Grand Prix",
+        "correctAnswer": "Elon Musk",
+        "incorrectAnswers": [
+            "Bill Gates",
+            "Jeff Bezos",
+            "Mark Zuckerberg"
+        ]
+    },
+    {
+        "id": 210,
+        "question": "Who insults Tony at the Senate hearing (Needs to be checked)",
+        "correctAnswer": "Senator Stern",
+        "incorrectAnswers": [
+            "Senator Fern",
+            "Senator Biden",
+            "Senator Obama"
+        ]
+    },
+    {
+        "id": 211,
+        "question": "Who doesn't Natasha Romanoff introduce herself as to Tony Stark",
+        "correctAnswer": "Natalie Rushman",
+        "incorrectAnswers": [
+            "Natasha Romanoff",
+            "Black Widow",
+            "Natasha Rushman"
+        ]
+    },
+    {
+        "id": 213,
+        "question": "What is Tony's blood Toxicity in Monaco",
+        "correctAnswer": "53%",
+        "incorrectAnswers": [
+            "19%",
+            "69%",
+            "90%"
+        ]
+    },
+    {
+        "id": 214,
+        "question": "What number is on Tony Stark's race number at Monaco",
+        "correctAnswer": "11",
+        "incorrectAnswers": [
+            "13",
+            "1",
+            "23"
+        ]
+    },
+    {
+        "id": 215,
+        "question": "What is Justin Hammer eating during his meeting with Ivan Vanko",
+        "correctAnswer": "Ice-Cream",
+        "incorrectAnswers": [
+            "Streak",
+            "Salmon",
+            "Pizza"
+        ]
+    },
+    {
+        "id": 216,
+        "question": "What show is Phil Coulson going to watch if he taser's Tony Stark",
+        "correctAnswer": "Super Nanny",
+        "incorrectAnswers": [
+            "Keeping up with the Kardasians",
+            "Seinfeld",
+            "Friends",
+            "Big Bang Theory",
+            "Agents of Shield",
+            "Love Island",
+            "American Idol",
+            "The Voice"
+        ]
+    },
+    {
+        "id": 217,
+        "question": "What does Tony trade his watch for on the way to Stark Industries",
+        "correctAnswer": "Strawberries",
+        "incorrectAnswers": [
+            "A car",
+            "A ride",
+            "Money"
+        ]
+    },
+    {
+        "id": 218,
+        "question": "",
+        "correctAnswer": "",
+        "incorrectAnswers": [
+            "",
+            "",
+            ""
         ]
     }
 ]

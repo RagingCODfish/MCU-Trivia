@@ -10,6 +10,7 @@ import SwiftUI
 @main
 struct MCU_TriviaApp: App {
     @StateObject var triviaManager = TriviaManager()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

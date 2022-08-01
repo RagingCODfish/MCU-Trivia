@@ -35,11 +35,12 @@ struct HowToPlayView: View {
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color("Thanos"))
+        .statusBar(hidden: true)
     }
-    
+
     func updateHighScore() {
-            highscore = 0
-            UserDefaults.standard.set(highscore, forKey: "highscore")
+        
+
         }
 }
 

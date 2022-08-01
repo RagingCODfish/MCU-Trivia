@@ -15,6 +15,7 @@ struct AnswerRow: View {
     
     var gold = Color("AccentColor")
     var red = Color(red: 0.71, green: 0.094, blue: 0.1)
+    var green = Color(hue: 0.437, saturation: 0.711, brightness: 0.711)
     
     var body: some View {
         HStack(spacing: 20) {
@@ -27,8 +28,17 @@ struct AnswerRow: View {
             if isSelected {
                 Spacer()
                 
-                Image(systemName: answer.isCorrect ? "checkmark" : "x.circle.fill")
-                    .foregroundColor(answer.isCorrect ? gold : red)
+                if answer.isCorrect {
+                    Image(systemName: "checkmark")
+                } else {
+                    Image("stone\(triviaManager.incorrectAnswer)")
+                }
+//                
+//                Image(systemName: answer.isCorrect ? "checkmark" : "stone\(triviaManager.incorrectAnswer)")
+//                    .font(.title2)
+//                    .foregroundColor(answer.isCorrect ? green : red)
+                
+
             }
         }
         .padding()

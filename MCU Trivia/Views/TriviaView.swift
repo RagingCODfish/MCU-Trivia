@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TriviaView: View {
     @EnvironmentObject var triviaManager: TriviaManager
+
     var endless: Bool
     
     var body: some View {
@@ -31,7 +32,12 @@ struct TriviaView: View {
                 
                 Text("You answered \(triviaManager.score) out of \(triviaManager.index + 1) correctly")
                 Text("You scored: \(triviaManager.points)")
-                Text("Your Highest Score is \(triviaManager.highscore)")
+                
+                if endless {
+                    Text("Your Highest Score is \(triviaManager.endlesshighscore)")
+                } else {
+                    Text("Your Highest Score is \(triviaManager.shorthighscore)")
+                }
                 
                 
                 Button {
@@ -39,7 +45,7 @@ struct TriviaView: View {
                         await triviaManager.fetchTrivia()
                     }
                 } label: {
-                    PrimaryButton(text: "Play again!")
+                    PrimaryButton(text: "Play Again")
                 }
                 .navigationBarHidden(true)
                 
@@ -48,18 +54,25 @@ struct TriviaView: View {
                 } label: {
                     PrimaryButton(text: "Submit a Question")
                 }
+                
+//                NavigationLink {
+//                    ContentView()
+//                } label: {
+//                    PrimaryButton(text: "Home")
+//                }
             }
-            .onAppear { triviaManager.endless = triviaManager.endless }
+            
             .foregroundColor(Color("AccentColor"))
             .padding()
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color("Thanos"))
+            .statusBar(hidden: true)
         } else {
             withAnimation(){
                 QuestionView()
-
-                    
+                    .onAppear { triviaManager.endless = endless }
             }
+            
         }
     }
 }
@@ -68,6 +81,6 @@ struct TriviaView: View {
 struct TriviaView_Previews: PreviewProvider {
     static var previews: some View {
         TriviaView(endless: true)
-
+        
     }
 }

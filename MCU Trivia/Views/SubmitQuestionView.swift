@@ -8,29 +8,28 @@
 import SwiftUI
 
 struct SubmitQuestionView: View {
-    
-    @State private var question = ""
-    @State private var correctAnswer = ""
-    @State private var incorrectAnswer1 = ""
-    @State private var incorrectAnswer2 = ""
-    @State private var incorrectAnswer3 = ""
+    @Environment(\.openURL) var openURL
+    private var email = SubmitQuestionEmail(toAddress: "mcutriviaapp@gmail.com", subject: "New Question", messageHeader: "Please add a question, a correct answer and a minimum of 3 incorrect answers. You can add more incorrect answers if you like.")
+
+
     
     var body: some View {
         VStack {
             Text("Got a question you want to add?")
             
+            
             Group {
-                TextField("Enter the question", text: $question)
-                TextField("Enter the correct answer", text: $correctAnswer)
-                TextField("Enter a wrong answer", text: $incorrectAnswer1)
-                TextField("Enter a wrong answer", text: $incorrectAnswer2)
-                TextField("Enter a wrong answer", text: $incorrectAnswer3)
+//                TextField("Enter the question", text: $sq.question)
+//                TextField("Enter the correct answer", text: sq.$correctAnswer)
+//                TextField("Enter a wrong answer", text: sq.$incorrectAnswer1)
+//                TextField("Enter a wrong answer", text: sq.$incorrectAnswer2)
+//                TextField("Enter a wrong answer", text: sq.$incorrectAnswer3)
             }  
             // need to fix textfield color
             
             Button {
-                // code to actually submit the question
-                print("Submit question to an email address hopefully")
+                email.send(openURL: openURL)
+                //print("Submit question to an email address hopefully")
             } label: {
                 PrimaryButton(text: "Submit")
             }
@@ -41,7 +40,10 @@ struct SubmitQuestionView: View {
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color("Thanos"))
+        .statusBar(hidden: true)
     }
+    
+    
 }
 
 struct SubmitQuestionView_Previews: PreviewProvider {

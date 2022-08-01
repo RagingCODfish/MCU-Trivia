@@ -19,18 +19,21 @@ struct ContentView: View {
         VStack {
             NavigationView {
                 VStack(spacing: 20) {
-                    VStack(spacing: 20) {
+//                    VStack(spacing: 20) {
+                        
+                        Spacer()
+                        
                         Text("MCU Trivia")
                             .ThanosTitle()                        
                         
                         Image("glove6")
                             .resizable()
                             .scaledToFit()
-                            .frame(width: 300, height: 300)
+
                         
                         Text("Can you survive the Inevitable?")
                             .foregroundColor(Color("AccentColor"))
-                    }
+  //                  }
                     
                     NavigationLink {
                         HowToPlayView()
@@ -46,7 +49,7 @@ struct ContentView: View {
                         PrimaryButton(text: "Short Quiz")
                     }
                     
-                    Text("Your current High Score for short quiz is \(triviaManager.highscore)")
+                    Text("Your current High Score for short quiz is \(triviaManager.shorthighscore)")
                         .foregroundColor(Color("AccentColor"))
                     
                     
@@ -57,17 +60,19 @@ struct ContentView: View {
                     }
                     
                     
-                    Text("Your current High Score for Endless is \(triviaManager.highscore)")
+                    Text("Your current High Score for Endless is \(triviaManager.endlesshighscore)")
                         .foregroundColor(Color("AccentColor"))
-                    
-                    
-                    
+   
                 }
+                .padding([.top, .bottom], 20)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .edgesIgnoringSafeArea(.all)
                 .background(Color("Thanos"))
+
             }
         }
+        .navigationBarHidden(true)
+
     }
 }
 

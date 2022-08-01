@@ -15,7 +15,7 @@ class TriviaManager: ObservableObject {
     private(set) var trivia: [Trivia] = []
     @Published private(set) var length = 0
     @Published private(set) var index = 0
-    @Published private(set) var reachedEnd = false
+    var reachedEnd = false
     @Published private(set) var answerSelected = false
     @Published private(set) var question: AttributedString = ""
     @Published private(set) var answerChoices: [Answer] = []
@@ -25,8 +25,9 @@ class TriviaManager: ObservableObject {
     @Published var incorrectAnswer = 0
     @Published var points = 0
     @Published var multiplier = 0
-    @AppStorage("highscore") var highscore: Int = 0
-    var endless = true
+    @AppStorage("shorthighscore") var shorthighscore: Int = 0
+    @AppStorage("endlesshighscore") var endlesshighscore: Int = 0
+    var endless = false
     
     
     let maxTime = 50
@@ -58,10 +59,11 @@ class TriviaManager: ObservableObject {
                 self.score = 0
                 self.progress = 0.00
                 self.reachedEnd = false
-                self.incorrectAnswer = 0  // 6 for testing ---- 0 for release
-                self.trivia = decodedData //.shuffled() //ordered for testing
+                self.incorrectAnswer = 6  // 6 for testing ---- 0 for release
+                self.trivia = decodedData.shuffled() //ordered for testing
                 self.length = self.trivia.count
                 self.setQuestion()
+                self.endless = false
                 
             }
         } catch {
@@ -70,7 +72,7 @@ class TriviaManager: ObservableObject {
     }
     
     func goToNextQuestion() {
-        if incorrectAnswer == 7 {
+        if incorrectAnswer == 8 {
             reachedEnd = true
             gameOver()
         }
@@ -103,6 +105,7 @@ class TriviaManager: ObservableObject {
             question = currentTriviaQuestion.formattedQuestion
             answerChoices = currentTriviaQuestion.answers
             questionID = currentTriviaQuestion.id
+
         }
     }
     
@@ -125,10 +128,18 @@ class TriviaManager: ObservableObject {
     }
     
     func updateHighScore() {
-        if points > highscore {
-            highscore = points
-            UserDefaults.standard.set(highscore, forKey: "highscore")
+        if endless {
+            if points > endlesshighscore {
+                endlesshighscore = points
+                UserDefaults.standard.set(endlesshighscore, forKey: "endlesshighscore")
+            }
+        } else {
+            if points > shorthighscore {
+                shorthighscore = points
+                UserDefaults.standard.set(shorthighscore, forKey: "shorthighscore")
+            }
         }
+        
     }
     
     func decreaseTimer() {
@@ -141,6 +152,6 @@ class TriviaManager: ObservableObject {
     
     func gameOver() {
         updateHighScore()
-        self.interstial.showAd()
+        //self.interstial.showAd()
     }
 }
