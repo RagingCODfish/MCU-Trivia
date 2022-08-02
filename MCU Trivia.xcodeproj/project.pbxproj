@@ -28,7 +28,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4431C14A2897F97600B3FF01 /* MCU Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "MCU Trivia.app"; path = "/Users/zachuptin/Developer/Zach Apps/MCU Trivia/build/Debug-iphoneos/MCU Trivia.app"; sourceTree = "<absolute>"; };
 		4457F33628866ED900520CA7 /* HowToPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayView.swift; sourceTree = "<group>"; };
 		4492D011287DBFE800FDD44B /* Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Questions.json; sourceTree = "<group>"; };
 		4492D030287EA65600FDD44B /* MCU-Trivia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MCU-Trivia-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -47,6 +46,7 @@
 		44B37E5B287DBEBA003921FD /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 		44B37E5E287DBEC3003921FD /* TriviaManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaManager.swift; sourceTree = "<group>"; };
 		44F0B17B28979FD9001EE255 /* SubmitQuestionEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitQuestionEmail.swift; sourceTree = "<group>"; };
+		F76642E2289904D800A2EFAF /* MCU Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MCU Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				44B37E3C287DBE45003921FD /* MCU Trivia */,
+				F76642E2289904D800A2EFAF /* MCU Trivia.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,7 +146,7 @@
 				4492D02E287EA1AA00FDD44B /* GoogleMobileAds */,
 			);
 			productName = "MCU Trivia";
-			productReference = 4431C14A2897F97600B3FF01 /* MCU Trivia.app */;
+			productReference = F76642E2289904D800A2EFAF /* MCU Trivia.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -344,7 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MCU Trivia/Preview Content\"";
-				DEVELOPMENT_TEAM = Z95C3Y6UPR;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MCU-Trivia-Info.plist";
@@ -378,7 +379,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MCU Trivia/Preview Content\"";
-				DEVELOPMENT_TEAM = Z95C3Y6UPR;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MCU-Trivia-Info.plist";
