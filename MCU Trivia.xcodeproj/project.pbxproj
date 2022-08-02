@@ -25,6 +25,7 @@
 		44B37E5D287DBEBA003921FD /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B37E5B287DBEBA003921FD /* Answer.swift */; };
 		44B37E5F287DBEC3003921FD /* TriviaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B37E5E287DBEC3003921FD /* TriviaManager.swift */; };
 		44F0B17C28979FD9001EE255 /* SubmitQuestionEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F0B17B28979FD9001EE255 /* SubmitQuestionEmail.swift */; };
+		F73952FB289941AE00DF458E /* Configuration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = F73952FA289941AE00DF458E /* Configuration.storekit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		44B37E5B287DBEBA003921FD /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 		44B37E5E287DBEC3003921FD /* TriviaManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaManager.swift; sourceTree = "<group>"; };
 		44F0B17B28979FD9001EE255 /* SubmitQuestionEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitQuestionEmail.swift; sourceTree = "<group>"; };
+		F73952FA289941AE00DF458E /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
 		F76642E2289904D800A2EFAF /* MCU Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MCU Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -64,6 +66,7 @@
 		44B37E31287DBE45003921FD = {
 			isa = PBXGroup;
 			children = (
+				F73952FA289941AE00DF458E /* Configuration.storekit */,
 				44B37E3C287DBE45003921FD /* MCU Trivia */,
 				F76642E2289904D800A2EFAF /* MCU Trivia.app */,
 			);
@@ -191,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44B37E45287DBE46003921FD /* Preview Assets.xcassets in Resources */,
+				F73952FB289941AE00DF458E /* Configuration.storekit in Resources */,
 				4492D012287DBFE800FDD44B /* Questions.json in Resources */,
 				44B37E42287DBE46003921FD /* Assets.xcassets in Resources */,
 			);
