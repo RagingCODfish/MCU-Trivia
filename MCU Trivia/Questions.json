@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": 1,
         "question": "What was the first MCU movie released",
         "correctAnswer": "Iron-Man",
@@ -30,7 +29,7 @@
             "1939",
             "1914"
         ]
-        
+
     },
     {
         "id": 4,
@@ -789,7 +788,7 @@
             "Hydrophobic",
             "Halcyon",
             "Hypothermia"
-            
+
         ]
     },
     {
@@ -809,7 +808,7 @@
             "Inclusive",
             "Innovative",
             "Invincible"
-            
+
         ]
     },
     {
@@ -829,7 +828,7 @@
             "Enchanting",
             "Euphoric",
             "Experienced"
-            
+
         ]
     },
     {
@@ -849,7 +848,7 @@
             "Lucky",
             "Lucid",
             "Logical"
-            
+
         ]
     },
     {
@@ -868,10 +867,9 @@
             "Delicious",
             "Determined",
             "Disciplined"
-            
+
         ]
-    }
-    ,{
+    }, {
         "id": 78,
         "question": "What is Odin's fathers name",
         "correctAnswer": "Bor",
@@ -881,8 +879,7 @@
             "Worr",
             "Lor"
         ]
-    }
-    ,{
+    }, {
         "id": 79,
         "question": "What make is the car Iron-Monger throws at Iron-Man",
         "correctAnswer": "Audi",
@@ -891,8 +888,7 @@
             "Tesla",
             "Ferrari"
         ]
-    }
-    ,{
+    }, {
         "id": 80,
         "question": "What is the MK 3 Iron-Man suit made of",
         "correctAnswer": "Titanium",
@@ -901,8 +897,7 @@
             "Iron",
             "Adamantium"
         ]
-    }
-    ,{
+    }, {
         "id": 81,
         "question": "How many days without incidents has Bruce had at the start of The Incredible Hulk",
         "correctAnswer": "158",
@@ -921,8 +916,7 @@
             "Fanta",
             "Mountain Dew"
         ]
-    }
-    ,{
+    }, {
         "id": 83,
         "question": "What is Bruce's username while talking with the secret scientist",
         "correctAnswer": "Mr Green",
@@ -931,8 +925,7 @@
             "Green Boy",
             "Greeny"
         ]
-    }
-    ,{
+    }, {
         "id": 84,
         "question": "Who does Emil Blonksy become",
         "correctAnswer": "Abomination",
@@ -943,8 +936,7 @@
             "Mandarin",
             "Yellow Jacket"
         ]
-    }
-    ,{
+    }, {
         "id": 85,
         "question": "What heart rate triggers Bruce to turn into the Hulk",
         "correctAnswer": "200",
@@ -953,8 +945,7 @@
             "60",
             "100"
         ]
-    }
-    ,{
+    }, {
         "id": 86,
         "question": "Who does the Hulk throw a forklift at",
         "correctAnswer": "Emil Blonksy",
@@ -963,8 +954,7 @@
             "Thanos",
             "Thunderbolt Ross"
         ]
-    }
-    ,{
+    }, {
         "id": 87,
         "question": "What colour is the Power Stone",
         "correctAnswer": "Purple",
@@ -975,8 +965,7 @@
             "Green",
             "Blue"
         ]
-    }
-    ,{
+    }, {
         "id": 88,
         "question": "What colour is the Reality Stone",
         "correctAnswer": "Red",
@@ -987,8 +976,7 @@
             "Blue",
             "Purple"
         ]
-    }
-    ,{
+    }, {
         "id": 89,
         "question": "What colour is the Mind Stone",
         "correctAnswer": "Yellow",
@@ -999,8 +987,7 @@
             "Blue",
             "Purple"
         ]
-    }
-    ,{
+    }, {
         "id": 90,
         "question": "What colour is the Soul Stone",
         "correctAnswer": "Orange",
@@ -1011,8 +998,7 @@
             "Blue",
             "Purple"
         ]
-    }
-    ,{
+    }, {
         "id": 91,
         "question": "What colour is the Time Stone",
         "correctAnswer": "Green",
@@ -1023,8 +1009,7 @@
             "Blue",
             "Purple"
         ]
-    }
-    ,{
+    }, {
         "id": 92,
         "question": "What colour is the Space Stone",
         "correctAnswer": "Blue",
@@ -1109,7 +1094,7 @@
             "Quantum Bands",
             "Sling Rings",
             "Arc Reactor"
-            
+
         ]
     },
     {
@@ -1270,7 +1255,7 @@
             "Will Sawyer",
             "Davis Okoye",
             "Spencer"
-            
+
         ]
     },
     {
@@ -2427,19 +2412,3 @@
         ]
     }
 ]
- 
-    ,
-    {
-        "id": ,
-        "question": "",
-        "correctAnswer": "",
-        "incorrectAnswers": [
-            "",
-            "",
-            ""
-        ]
-    }
- 
-
- 
- 
