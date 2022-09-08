@@ -1,21 +1,21 @@
 //
-//  HowToPlayView.swift
-//  MCU Trivia
+//  InevitableHowToPlay.swift
+//  MCU Trivia (new)
 //
-//  Created by Zach Uptin on 19/7/2022.
+//  Created by Zach Uptin on 30/8/2022.
 //
 
 import SwiftUI
 
-struct HowToPlayView: View {
+struct InevitableHowToPlay: View {
     @EnvironmentObject var triviaManager: TriviaManager
     var body: some View {
         NavigationView {
             VStack {
-                Text("Short")
+                Text("Inevitable")
                     .ThanosTitle()
                 
-                Text("Just a warm up")
+                Text("Can you answer enough questions to make it to end?")
                     .foregroundColor(.yellow)
                 
                 NavigationLink {
@@ -36,17 +36,17 @@ struct HowToPlayView: View {
         } // NavigationView
         .navigationBarHidden(true)
         .onAppear {
-            print("HowToPlayView")
+            print("InevitableHowToPlayView")
             Task.init {
-                await triviaManager.fetchTrivia(endless: false)
+                await triviaManager.fetchTrivia(endless: true)
             }
         }
     } // Body
 } // HowToPlayView
 
-struct HowToPlayView_Previews: PreviewProvider {
+struct InevitableHowToPlay_Previews: PreviewProvider {
     static var previews: some View {
-        HowToPlayView()
+        InevitableHowToPlay()
             .environmentObject(TriviaManager())
     }
 }

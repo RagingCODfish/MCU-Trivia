@@ -1,52 +1,50 @@
 //
-//  HowToPlayView.swift
-//  MCU Trivia
+//  ResultsView.swift
+//  MCU Trivia (new)
 //
-//  Created by Zach Uptin on 19/7/2022.
+//  Created by Zach Uptin on 29/8/2022.
 //
 
 import SwiftUI
 
-struct HowToPlayView: View {
+struct ResultsView: View {
     @EnvironmentObject var triviaManager: TriviaManager
+    
     var body: some View {
         NavigationView {
             VStack {
-                Text("Short")
+                Image("glove6")
+                    .resizable()
+                    .scaledToFit()
+                
+                Text("You made it to the end")
                     .ThanosTitle()
                 
-                Text("Just a warm up")
-                    .foregroundColor(.yellow)
-                
-                NavigationLink {
-                    QuestionView()
-                }label: {
-                    PrimaryButton(text: "Assemble")
-                }
+                Text("You scored \(triviaManager.score)")
+                    .ThanosTitle()
                 
                 NavigationLink {
                     ContentView()
                 } label: {
                     PrimaryButton(text: "Home")
                 }
-
             } // VStack
+            .padding()
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color("Thanos"))
+            
         } // NavigationView
         .navigationBarHidden(true)
         .onAppear {
-            print("HowToPlayView")
-            Task.init {
-                await triviaManager.fetchTrivia(endless: false)
-            }
+            print("ResultsView")
         }
-    } // Body
-} // HowToPlayView
 
-struct HowToPlayView_Previews: PreviewProvider {
+    } // Body
+} // ResultsView
+
+struct ResultsView_Previews: PreviewProvider {
     static var previews: some View {
-        HowToPlayView()
+        ResultsView()
             .environmentObject(TriviaManager())
     }
 }

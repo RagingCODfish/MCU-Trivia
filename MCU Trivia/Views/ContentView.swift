@@ -6,78 +6,65 @@
 //
 
 import SwiftUI
-import GoogleMobileAds
 
 struct ContentView: View {
     @EnvironmentObject var triviaManager: TriviaManager
-    
-    init() {
-        GADMobileAds.sharedInstance().start(completionHandler: nil)
-    }
-    
     var body: some View {
-        VStack {
-            NavigationView {
-                VStack(spacing: 20) {
-//                    VStack(spacing: 20) {
-                        
-                        Spacer()
-                        
-                        Text("MCU Trivia")
-                            .ThanosTitle()                        
-                        
-                        Image("glove6")
-                            .resizable()
-                            .scaledToFit()
-
-                        
-                        Text("Can you survive the Inevitable?")
-                            .foregroundColor(Color("AccentColor"))
-  //                  }
-                    
-                    NavigationLink {
-                        HowToPlayView()
-                    } label: {
-                        PrimaryButton(text: "How to play")
-                    }
-                    
-                    Spacer()
-                    
-                    NavigationLink {
-                        TriviaView(endless: false)
-                    } label: {
-                        PrimaryButton(text: "Short Quiz")
-                    }
-                    
-                    Text("Your current High Score for short quiz is \(triviaManager.shorthighscore)")
-                        .foregroundColor(Color("AccentColor"))
-                    
-                    
-                    NavigationLink {
-                        TriviaView(endless: true)
-                    } label: {
-                        PrimaryButton(text: "Endless")
-                    }
-                    
-                    
-                    Text("Your current High Score for Endless is \(triviaManager.endlesshighscore)")
-                        .foregroundColor(Color("AccentColor"))
-   
+        NavigationView {
+            VStack(spacing: 20) {
+                Spacer()
+                
+                Text("MCU TRIVIA")
+                    .ThanosTitle()
+                
+                Image("glove6")
+                    .resizable()
+                    .scaledToFit()
+                
+                Spacer()
+                
+                NavigationLink {
+                    HowToPlayView()
+                } label: {
+                    PrimaryButton(text: "30 Questions")
                 }
-                .padding([.top, .bottom], 20)
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .edgesIgnoringSafeArea(.all)
-                .background(Color("Thanos"))
 
-            }
-        }
+                
+                NavigationLink {
+                    InevitableHowToPlay()
+                } label: {
+                    PrimaryButton(text: "Inevitable Mode")
+                }
+                
+                NavigationLink {
+                    MovieListView()
+                } label: {
+                    PrimaryButton(text: "Movies and Shows")
+                }
+                
+                Spacer()
+            
+            }// VStack
+            .padding([.top, .bottom], 20)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .edgesIgnoringSafeArea(.all)
+            .background(Color("Thanos"))
+            
+            
+        } //NavigationView
         .navigationBarHidden(true)
+        .onAppear {
+            triviaManager.reachedEnd = false
+            print("ContentView")
+            print(triviaManager.reachedEnd)
+        }
 
-    }
-}
+    } //Body
+} // ContentView
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(TriviaManager())
     }
 }

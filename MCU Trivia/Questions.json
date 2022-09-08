@@ -304,7 +304,7 @@
     },
     {
         "id": 30,
-        "question": "What is Black Panthers sisters name",
+        "question": "What is T'Challa's sisters name",
         "correctAnswer": "Shuri",
         "incorrectAnswers": [
             "Sharee",
@@ -2399,16 +2399,6 @@
             "A car",
             "A ride",
             "Money"
-        ]
-    },
-    {
-        "id": 218,
-        "question": "",
-        "correctAnswer": "",
-        "incorrectAnswers": [
-            "",
-            "",
-            ""
         ]
     }
 ]

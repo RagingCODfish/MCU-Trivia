@@ -1,8 +1,8 @@
 //
 //  QuestionView.swift
-//  MarvelTrivia
+//  MCU Trivia (new)
 //
-//  Created by Zach Uptin on 12/7/2022.
+//  Created by Zach Uptin on 30/8/2022.
 //
 
 import SwiftUI
@@ -10,42 +10,42 @@ import SwiftUI
 struct QuestionView: View {
     @EnvironmentObject var triviaManager: TriviaManager
     
+    @State private var timeRemaining = 0.0
+    let timer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
+    
     var body: some View {
+        if triviaManager.reachedEnd {
+            ResultsView()
+        } else {
             VStack {
-                VStack(alignment: .leading) {
-                    Image("glove\(triviaManager.incorrectAnswer)")
-                        .resizable()
-                        .scaledToFit()
-                }
-                
-                Text("Question Number \(triviaManager.questionID)")
-                    .foregroundColor(Color("AccentColor"))
+                Image("glove\(triviaManager.incorrectAnswer)")
+                    .resizable()
+                    .scaledToFit()
                 
                 VStack {
-                    Text("\(triviaManager.question)?")
-                        .bold()
-                        .font(.system(size: 20))
-                        .multilineTextAlignment(.center)
-                        .frame(width: 350, height: 100)
-                        .frame(maxWidth: .infinity)
-                        .padding()
-                        .foregroundColor(Color("AccentColor"))
-                    
-                    
-                    ForEach(triviaManager.answerChoices, id: \.id) { answer in
-                        AnswerRow(answer: answer)
-                        
-                    }
-                    .padding(.horizontal)
-                }
+                    Text("Trivia Question \(triviaManager.questionID) for testing") // for testing
+                        .foregroundColor(.yellow)
+                } // VStack
+                Text(triviaManager.question)
+                    .bold()
+                    .font(.system(size: 20))
+                    .multilineTextAlignment(.center)
+                    .frame(width: 350, height: 100)
+                    .padding()
+                    .foregroundColor(Color("AccentColor"))
                 
-                HStack {
+                
+                ForEach(triviaManager.answerChoices, id: \.id) { answer in
+                    AnswerRow(answer: answer)
+                }
+                .padding(.horizontal)
+                
+                Section {
                     if triviaManager.answerSelected == true {
                         Button {
-                                triviaManager.goToNextQuestion()
-                                triviaManager.resetTimer()
+                            triviaManager.goToNextQuestion()
                         } label: {
-                            PrimaryButton(text: "Next", background: Color("AccentColor"))
+                            PrimaryButton(text: "Next")
                         }
                     } else {
                         Image(systemName: "\(triviaManager.timeRemaining).circle")
@@ -53,36 +53,37 @@ struct QuestionView: View {
                             .foregroundColor(.yellow)
                             .onReceive(triviaManager.timer) { _ in
                                 if triviaManager.timeRemaining == 0 {
-                                    withAnimation(){
+                                    withAnimation() {
                                         triviaManager.incorrectAnswer += 1
                                         triviaManager.goToNextQuestion()
-                                        triviaManager.resetTimer()
-                                        triviaManager.multiplier = 0
                                     }
                                 } else {
                                     withAnimation() {
-                                        triviaManager.decreaseTimer()
-                                        
+                                        triviaManager.decreseTimer()
                                     }
                                 }
                             }
-                    }
-                    
+                    } // else
                 }
                 .frame(height: 30)
                 .padding()
-            }
+                
+            } // VStack
+
             
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color("Thanos"))
             .navigationBarHidden(true)
-            .statusBar(hidden: true)
-    }
+            .onAppear {
+                print("QuestionView")
+            }
+        } 
+    } // Body
 }
 
 struct QuestionView_Previews: PreviewProvider {
     static var previews: some View {
         QuestionView()
-        
+            .environmentObject(TriviaManager())
     }
 }
