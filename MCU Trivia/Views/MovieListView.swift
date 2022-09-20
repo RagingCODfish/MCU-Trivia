@@ -5,6 +5,7 @@
 //  Created by Zach Uptin on 31/8/2022.
 //
 
+import SafariServices
 import SwiftUI
 
 struct MovieListView: View {
@@ -16,11 +17,21 @@ struct MovieListView: View {
             
             List {
                 ForEach(MCUTitles, id: \.self) { title in
-                    Link(title.title, destination: URL(string: title.link)!)
+                        Link(title.title, destination: URL(string: title.link)!)
+                        .listRowSeparator(.visible)
+                    
+                        
                 } // Foreach
+                .listRowBackground(Color("Thanos"))
+                .foregroundColor(.yellow)
+                
             } // List
+            .listStyle(.plain)
         } // VStack
+
+        .background(Color("Thanos"))
     }
+    
 }
 
 struct MovieListView_Previews: PreviewProvider {

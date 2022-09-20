@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		443AFD9328CF2B7700D6855D /* MovieCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AFD9228CF2B7700D6855D /* MovieCircleView.swift */; };
 		4457F33728866EDA00520CA7 /* HowToPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4457F33628866ED900520CA7 /* HowToPlayView.swift */; };
 		446D3CF328CA13BC00723CDD /* InevitableHowToPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446D3CF228CA13BC00723CDD /* InevitableHowToPlay.swift */; };
 		446D3CF528CA13D300723CDD /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446D3CF428CA13D300723CDD /* MovieListView.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		443AFD9228CF2B7700D6855D /* MovieCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCircleView.swift; sourceTree = "<group>"; };
 		4457F33628866ED900520CA7 /* HowToPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayView.swift; sourceTree = "<group>"; };
 		446D3CF228CA13BC00723CDD /* InevitableHowToPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InevitableHowToPlay.swift; sourceTree = "<group>"; };
 		446D3CF428CA13D300723CDD /* MovieListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
@@ -110,8 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				44B37E50287DBEA4003921FD /* ContentView.swift */,
-				446D3CF228CA13BC00723CDD /* InevitableHowToPlay.swift */,
 				4457F33628866ED900520CA7 /* HowToPlayView.swift */,
+				446D3CF228CA13BC00723CDD /* InevitableHowToPlay.swift */,
 				446D3CF628CA142100723CDD /* QuestionView.swift */,
 				446D3CF728CA142100723CDD /* ResultsView.swift */,
 				446D3CF428CA13D300723CDD /* MovieListView.swift */,
@@ -125,6 +127,7 @@
 				44B37E55287DBEB3003921FD /* PrimaryButton.swift */,
 				44B37E56287DBEB3003921FD /* AnswerRow.swift */,
 				44B37E4B287DBE81003921FD /* Extensions.swift */,
+				443AFD9228CF2B7700D6855D /* MovieCircleView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				4457F33728866EDA00520CA7 /* HowToPlayView.swift in Sources */,
 				446D3CF928CA142100723CDD /* ResultsView.swift in Sources */,
 				44B37E3E287DBE45003921FD /* MCU_TriviaApp.swift in Sources */,
+				443AFD9328CF2B7700D6855D /* MovieCircleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +385,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zacharyuptin.MCU-Trivia";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,7 +419,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zacharyuptin.MCU-Trivia";
 				PRODUCT_NAME = "$(TARGET_NAME)";

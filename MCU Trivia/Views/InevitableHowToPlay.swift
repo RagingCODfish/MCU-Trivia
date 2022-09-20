@@ -15,13 +15,17 @@ struct InevitableHowToPlay: View {
                 Text("Inevitable")
                     .ThanosTitle()
                 
-                Text("Can you answer enough questions to make it to end?")
+                Text("Questions keep coming.. can you answer them all? Each wrong answer Thanos will collect an Infinity Stone. If he collects them all he will snap his fingers and the game is over!")
+                    .fontWeight(.light)
+                    .padding(.horizontal)
+                    .multilineTextAlignment(.center)
                     .foregroundColor(.yellow)
+                
                 
                 NavigationLink {
                     QuestionView()
-                }label: {
-                    PrimaryButton(text: "Assemble")
+                } label: {
+                    PrimaryButton(text: "I Can Do This All Day")
                 }
                 
                 NavigationLink {

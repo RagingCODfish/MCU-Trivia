@@ -33,12 +33,6 @@ struct AnswerRow: View {
                 } else {
                     Image("stone\(triviaManager.incorrectAnswer)")
                 }
-//                
-//                Image(systemName: answer.isCorrect ? "checkmark" : "stone\(triviaManager.incorrectAnswer)")
-//                    .font(.title2)
-//                    .foregroundColor(answer.isCorrect ? green : red)
-                
-
             }
         }
         .padding()
@@ -52,7 +46,6 @@ struct AnswerRow: View {
                 isSelected = true
                 triviaManager.selectAnswer(answer: answer)
             }
-            
         }
     }
 }

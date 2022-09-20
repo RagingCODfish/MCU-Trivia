@@ -54,7 +54,7 @@ class TriviaManager: ObservableObject {
                 self.progress = 0.0
                 self.reachedEnd = false
                 self.incorrectAnswer = 0
-                self.trivia = decodedData//.shuffled()
+                self.trivia = decodedData.shuffled()
                 if endless {
                     self.length = self.trivia.count
                 } else {
@@ -111,9 +111,11 @@ class TriviaManager: ObservableObject {
     
     func gameOver() {
         reachedEnd = true
+        incorrectAnswer = 0
         points = points * score
         updateHighScore()
-//        self.interstial.showAd()
+        
+        //self.interstial.showAd()
         
         
         // show ad func call

@@ -7,28 +7,19 @@
 
 import Foundation
 
-struct Trivia: Decodable {
+struct Trivia: Codable {
     var id: Int
     var question: String
     var correctAnswer: String
     var incorrectAnswers: [String]
     
-    var formattedQuestion: AttributedString {
-        do {
-            return try AttributedString(markdown: question)
-        } catch {
-            print("Error setting formattedQuestion: \(error)")
-            return ""
-        }
-    }
-    
     var answers: [Answer] {
         do {
-            let correct = [Answer(text: try AttributedString(markdown: correctAnswer), isCorrect: true)]
-            var incorrects = try incorrectAnswers.map { answer in
-                Answer(text: try AttributedString(markdown: answer), isCorrect: false)
+            let correct = [Answer(text: correctAnswer, isCorrect: true)]
+            var incorrects = incorrectAnswers.map { answer in
+                Answer(text: answer, isCorrect: false)
             }
-
+            
             // Removes any extra possible incorrect answers
             while incorrects.count > 3 {
                 incorrects.shuffle()
@@ -36,12 +27,8 @@ struct Trivia: Decodable {
             }
             
             let allAnswers = incorrects + correct
+            return allAnswers.shuffled()   // remove shuffled for testing
             
-            return allAnswers//.shuffled()
-            
-        } catch {
-            print("Error setting answers: \(error)")
-            return []
         }
     }
 }

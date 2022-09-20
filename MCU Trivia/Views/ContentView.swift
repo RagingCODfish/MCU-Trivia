@@ -33,7 +33,7 @@ struct ContentView: View {
                 NavigationLink {
                     InevitableHowToPlay()
                 } label: {
-                    PrimaryButton(text: "Inevitable Mode")
+                    PrimaryButton(text: "Inevitable")
                 }
                 
                 NavigationLink {

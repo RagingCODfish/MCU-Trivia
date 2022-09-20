@@ -20,7 +20,10 @@ struct ResultsView: View {
                 Text("You made it to the end")
                     .ThanosTitle()
                 
-                Text("You scored \(triviaManager.score)")
+                Text("You answered \(triviaManager.index) out of \(triviaManager.length)")
+                    .ThanosTitle()
+                
+                Text("You scored \(triviaManager.points)")
                     .ThanosTitle()
                 
                 NavigationLink {

@@ -15,7 +15,9 @@ struct HowToPlayView: View {
                 Text("Short")
                     .ThanosTitle()
                 
-                Text("Just a warm up")
+                Text("30 questions... Every wrong answer Thanos collects an Infinity Stone, if he gets all 6 the game is over")
+                    .padding(.horizontal)
+                    .multilineTextAlignment(.center)
                     .foregroundColor(.yellow)
                 
                 NavigationLink {
